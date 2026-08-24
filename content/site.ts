@@ -6,6 +6,9 @@ export const brand = {
     "ערכת הכנה נעימה, שימושית ומרגיעה שמלווה ילדות ונערות לקראת המחזור הראשון — עם ידע, התנסות ותחושת מוכנות.",
 };
 
+/** Inbox for waitlist signups. Override with WAITLIST_NOTIFY_EMAIL in production if needed. */
+export const waitlistNotifyEmail = "noashimoni@gmail.com";
+
 export const navLinks = [
   { href: "/kit", label: "מה יש בערכה?" },
   { href: "/how-it-works", label: "איך זה עובד?" },

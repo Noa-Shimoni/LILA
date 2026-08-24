@@ -5,7 +5,6 @@ import { How } from "@/components/home/How";
 import { KitPreview } from "@/components/home/KitPreview";
 import { Mothers } from "@/components/home/Mothers";
 import { Positioning } from "@/components/home/Positioning";
-import { Reviews } from "@/components/home/Reviews";
 import { ShopFaq } from "@/components/home/ShopFaq";
 import { Timeline } from "@/components/home/Timeline";
 import { Waitlist } from "@/components/home/Waitlist";
@@ -22,7 +21,6 @@ export default function HomePage() {
       <GirlQuestions />
       <Mothers />
       <Positioning />
-      <Reviews />
       <ShopFaq />
       <Waitlist />
       <FinalCta />

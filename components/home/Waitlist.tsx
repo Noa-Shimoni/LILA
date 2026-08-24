@@ -4,10 +4,12 @@ import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow, Lead, Section, Title } from "@/components/ui/Section";
 
-export function Waitlist() {
-  const [sent, setSent] = useState(false);
+type Status = "idle" | "submitting" | "sent" | "error";
 
-  if (sent) {
+export function Waitlist() {
+  const [status, setStatus] = useState<Status>("idle");
+
+  if (status === "sent") {
     return (
       <Section id="waitlist">
         <div className="rounded-[2rem] bg-blush/50 p-8 ring-1 ring-ink/5 sm:p-12">
@@ -29,12 +31,39 @@ export function Waitlist() {
           אופציונליים.
         </Lead>
         <form
-          className="mt-8 grid max-w-xl gap-5"
-          onSubmit={(e) => {
-            e.preventDefault();
-            setSent(true);
+          className="relative mt-8 grid max-w-xl gap-5"
+          onSubmit={async (event) => {
+            event.preventDefault();
+            const form = event.currentTarget;
+            const data = new FormData(form);
+            setStatus("submitting");
+
+            try {
+              const response = await fetch("/api/waitlist", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  email: data.get("email"),
+                  name: data.get("name"),
+                  phone: data.get("phone"),
+                  company: data.get("company"),
+                }),
+              });
+
+              if (!response.ok) {
+                throw new Error("send failed");
+              }
+
+              setStatus("sent");
+            } catch {
+              setStatus("error");
+            }
           }}
         >
+          <div className="absolute -left-[9999px] h-0 w-0 overflow-hidden" aria-hidden="true">
+            <label htmlFor="waitlist-company">חברה</label>
+            <input id="waitlist-company" name="company" tabIndex={-1} autoComplete="off" />
+          </div>
           <div>
             <label htmlFor="waitlist-email" className="mb-1 block font-medium">
               כתובת מייל <span className="text-rose">*</span>
@@ -71,7 +100,14 @@ export function Waitlist() {
               className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
             />
           </div>
-          <Button type="submit">עדכנו אותי</Button>
+          {status === "error" ? (
+            <p className="text-rose-deep" role="alert">
+              לא הצלחנו לשלוח את ההרשמה. נסי שוב בעוד רגע.
+            </p>
+          ) : null}
+          <Button type="submit" disabled={status === "submitting"}>
+            {status === "submitting" ? "שולחות…" : "עדכנו אותי"}
+          </Button>
         </form>
       </div>
     </Section>
