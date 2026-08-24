@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     template: `%s · ${brand.name}`,
   },
   description: brand.description,
+  referrer: "origin",
   openGraph: {
     title: `${brand.name} · ${brand.tagline}`,
     description: brand.description,
