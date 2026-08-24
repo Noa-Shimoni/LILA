@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #f8f1f5;
+  --color-peach: #f3d4e4;
+  --color-blush: #ebc0d6;
+  --color-lilac: #d8c4ee;
+  --color-sage: #e4d0ea;
+  --color-rose: #8a4a76;
+  --color-rose-deep: #6b355c;
+  --color-ink: #2e2432;
+  --color-muted: #6a5564;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+::selection {
+  background: var(--color-blush);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-rose);
+  outline-offset: 3px;
+}
+
+.paper-bg {
+  background-color: var(--color-cream);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 100% -10%, rgba(216, 150, 190, 0.38), transparent 50%),
+    radial-gradient(ellipse 60% 40% at -10% 20%, rgba(196, 170, 230, 0.42), transparent 45%),
+    radial-gradient(ellipse 50% 30% at 40% 100%, rgba(232, 180, 210, 0.4), transparent 50%);
+}
+
+.grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E");
+}
