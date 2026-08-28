@@ -9,7 +9,7 @@ import { cta } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "מה יש בערכה",
-  description: "היכרות עם תחבושות, תחתוני וסת, מכתב לילדה ומדריך קצר — בקצב שלה, בלי חובה להשתמש בהכול.",
+  description: "היכרות עם תחבושות, תחתוני וסת, מכתב לילדה ונרתיק צבעוני — בקצב שלה, בלי חובה להשתמש בהכול.",
 };
 
 const tones: Record<string, string> = {
@@ -25,7 +25,7 @@ export default function KitPage() {
       <PageHero
         eyebrow="הערכה"
         title="כל מה שצריך כדי להכיר, להבין ולהרגיש מוכנה."
-        lead="זאת לא ערכת חירום. זאת ערכת היכרות: תחבושות, תחתוני וסת, מכתב לילדה ומדריך קצר — ומקום להתנסות בלי לחץ."
+        lead="זאת לא ערכת חירום. זאת ערכת היכרות: תחבושות, תחתוני וסת, מכתב לילדה ונרתיק צבעוני — ומקום להתנסות בלי לחץ."
       />
       <Container className="py-14">
         <ul className="flex flex-wrap gap-3">

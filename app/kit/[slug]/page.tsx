@@ -32,7 +32,7 @@ export default async function KitItemPage({ params }: Props) {
       </p>
       <div className="mt-6 grid items-start gap-10 lg:grid-cols-[1fr_1.2fr]">
         <div className="rounded-[2rem] bg-white/70 p-8 ring-1 ring-ink/5">
-          <ProductMark slug={item.slug} className="h-28 w-40" />
+          <ProductMark slug={item.slug} size="hero" />
         </div>
         <div>
           <h1 className="font-serif text-4xl">{item.name}</h1>

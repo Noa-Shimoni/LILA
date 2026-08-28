@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { ProductMark } from "@/components/illustrations/ProductMark";
 import { Button } from "@/components/ui/Button";
 import { Modal } from "@/components/ui/Modal";
 import { Eyebrow, Lead, Section, Title } from "@/components/ui/Section";
@@ -22,7 +21,6 @@ export function How() {
       <ul className="mt-10 grid gap-4 lg:grid-cols-3">
         {absorbencyMethods.map((row) => (
           <li key={row.slug} className="rounded-3xl bg-white/70 p-6 ring-1 ring-ink/5">
-            <ProductMark slug={row.slug} className="h-14 w-20" />
             <h3 className="font-serif text-2xl">{row.name}</h3>
             <p className="mt-2 text-muted">{row.how}</p>
             <button
