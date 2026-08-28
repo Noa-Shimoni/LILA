@@ -1,4 +1,4 @@
-import { KitUnbox } from "@/components/illustrations/KitUnbox";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Section";
 import { cta } from "@/content/site";
@@ -29,8 +29,16 @@ export function Hero() {
         <div className="relative">
           <div className="absolute -left-6 top-8 h-28 w-28 rounded-full bg-lilac/50 blur-2xl" />
           <div className="absolute -right-4 bottom-10 h-32 w-32 rounded-full bg-peach/70 blur-2xl" />
-          <div className="relative rounded-[2rem] bg-white/50 p-4 shadow-soft ring-1 ring-ink/5">
-            <KitUnbox className="h-auto w-full" />
+          <div className="relative overflow-hidden rounded-[2rem] bg-white/50 p-2 shadow-soft ring-1 ring-ink/5 sm:p-4">
+            <Image
+              src="/full-kit.png"
+              alt="ערכת LILA הפתוחה: תחתוני מחזור, תחבושות, פאוץ' ומכתב"
+              width={882}
+              height={633}
+              priority
+              sizes="(min-width: 1024px) 40vw, 90vw"
+              className="h-auto w-full rounded-[1.5rem] object-cover"
+            />
           </div>
         </div>
       </Container>

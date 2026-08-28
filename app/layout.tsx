@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   },
   description: brand.description,
   referrer: "origin",
+  icons: {
+    icon: "/logo.png",
+  },
   openGraph: {
     title: `${brand.name} · ${brand.tagline}`,
     description: brand.description,

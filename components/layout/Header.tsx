@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { BrandLogo } from "@/components/illustrations/BrandLogo";
 import { brand, cta, navLinks } from "@/content/site";
-import { MoonMark } from "@/components/illustrations/MoonMark";
 import { Button } from "@/components/ui/Button";
 
 export function Header() {
@@ -12,11 +12,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/5 bg-cream/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-content items-center justify-between gap-4 px-5 py-3 sm:px-8">
-        <Link href="/" className="flex min-h-11 items-center gap-2" aria-label={`${brand.name} — דף הבית`}>
-          <MoonMark className="h-9 w-9" />
-          <span className="text-[1.05rem] font-medium tracking-[0.22em] text-ink">
-            {brand.name}
-          </span>
+        <Link href="/" className="flex min-h-11 items-center" aria-label={`${brand.name} — דף הבית`}>
+          <BrandLogo decorative priority />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="ראשי">

@@ -1,3 +1,4 @@
+import { BrandLogo } from "@/components/illustrations/BrandLogo";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Section";
 import { cta } from "@/content/site";
@@ -7,8 +8,8 @@ export function FinalCta() {
     <section className="pb-20">
       <Container>
         <div className="overflow-hidden rounded-[2rem] bg-rose-deep px-8 py-14 text-cream shadow-soft sm:px-14">
-          <p className="text-sm tracking-[0.22em] text-peach">LILA</p>
-          <h2 className="mt-3 max-w-2xl font-serif text-3xl font-medium leading-snug tracking-tight sm:text-4xl">
+          <BrandLogo className="h-12 sm:h-14" />
+          <h2 className="mt-4 max-w-2xl font-serif text-3xl font-medium leading-snug tracking-tight sm:text-4xl">
             קצת ידע, קצת הכנה, והרבה יותר ביטחון.
           </h2>
           <p className="mt-4 max-w-xl text-lg text-peach">
