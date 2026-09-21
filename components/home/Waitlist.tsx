@@ -4,73 +4,30 @@ import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow, Lead, Section, Title } from "@/components/ui/Section";
 import { waitlistNotifyEmail } from "@/content/site";
-import { isFormSubmitAccepted } from "@/lib/formsubmit";
+import {
+  validateWaitlistEmail,
+  validateWaitlistName,
+  validateWaitlistPhone,
+  type WaitlistField,
+} from "@/lib/waitlist-validation";
 
 type Status = "idle" | "submitting" | "sent" | "error";
 
-async function submitWaitlist(fields: {
-  email: string;
-  name: string;
-  phone: string;
-  company: string;
-}) {
-  if (fields.company) {
-    return true;
-  }
+const fieldMessages: Record<WaitlistField, string> = {
+  email: "כתובת המייל לא תקינה.",
+  name: "השם יכול להכיל אותיות, רווחים ומקף בלבד.",
+  phone: "מספר הטלפון לא תקין. אפשר להשאיר ריק, או למלא מספר ישראלי.",
+  pageUrl: "לא הצלחנו לשלוח את ההרשמה. נסי שוב בעוד רגע.",
+  form: "לא הצלחנו לשלוח את ההרשמה. נסי שוב בעוד רגע.",
+};
 
-  const payload = {
-    _subject: "LILA — הרשמה לערכה",
-    _template: "table",
-    _captcha: "false",
-    _url: window.location.href,
-    _replyto: fields.email,
-    email: fields.email,
-    name: fields.name || "לא צוין",
-    phone: fields.phone || "לא צוין",
-  };
-
-  try {
-    const response = await fetch(
-      `https://formsubmit.co/ajax/${encodeURIComponent(waitlistNotifyEmail)}`,
-      {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      },
-    );
-    const result: unknown = await response.json();
-    if (isFormSubmitAccepted(result)) {
-      return true;
-    }
-  } catch {
-    // Fall through to the app API if the browser cannot reach FormSubmit.
-  }
-
-  const apiResponse = await fetch("/api/waitlist", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      email: fields.email,
-      name: fields.name,
-      phone: fields.phone,
-      company: fields.company,
-      pageUrl: window.location.href,
-    }),
-  });
-
-  if (!apiResponse.ok) {
-    return false;
-  }
-
-  const apiResult = (await apiResponse.json()) as { ok?: boolean };
-  return apiResult.ok === true;
+function readField(value: FormDataEntryValue | null) {
+  return typeof value === "string" ? value.trim() : "";
 }
 
 export function Waitlist() {
   const [status, setStatus] = useState<Status>("idle");
+  const [fieldError, setFieldError] = useState<WaitlistField | null>(null);
 
   if (status === "sent") {
     return (
@@ -95,25 +52,74 @@ export function Waitlist() {
         </Lead>
         <form
           className="relative mt-8 grid max-w-xl gap-5"
+          noValidate
           onSubmit={async (event) => {
             event.preventDefault();
             const form = event.currentTarget;
             const data = new FormData(form);
+            const email = readField(data.get("email"));
+            const name = readField(data.get("name"));
+            const phone = readField(data.get("phone"));
+            const company = readField(data.get("company"));
+
+            if (!validateWaitlistEmail(email)) {
+              setFieldError("email");
+              setStatus("error");
+              return;
+            }
+            if (validateWaitlistName(name) === null) {
+              setFieldError("name");
+              setStatus("error");
+              return;
+            }
+            if (validateWaitlistPhone(phone) === null) {
+              setFieldError("phone");
+              setStatus("error");
+              return;
+            }
+
             setStatus("submitting");
+            setFieldError(null);
 
-            const sent = await submitWaitlist({
-              email: String(data.get("email") ?? "").trim(),
-              name: String(data.get("name") ?? "").trim(),
-              phone: String(data.get("phone") ?? "").trim(),
-              company: String(data.get("company") ?? "").trim(),
-            });
+            try {
+              const apiResponse = await fetch("/api/waitlist", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  email,
+                  name,
+                  phone,
+                  company,
+                  pageUrl: window.location.href,
+                }),
+              });
 
-            setStatus(sent ? "sent" : "error");
+              const apiResult = (await apiResponse.json().catch(() => null)) as
+                | { ok?: boolean; field?: WaitlistField }
+                | null;
+
+              if (!apiResponse.ok || !apiResult?.ok) {
+                setFieldError(apiResult?.field ?? "form");
+                setStatus("error");
+                return;
+              }
+
+              setStatus("sent");
+            } catch {
+              setFieldError("form");
+              setStatus("error");
+            }
           }}
         >
           <div className="absolute -left-[9999px] h-0 w-0 overflow-hidden" aria-hidden="true">
             <label htmlFor="waitlist-company">חברה</label>
-            <input id="waitlist-company" name="company" tabIndex={-1} autoComplete="off" />
+            <input
+              id="waitlist-company"
+              name="company"
+              tabIndex={-1}
+              autoComplete="off"
+              maxLength={80}
+            />
           </div>
           <div>
             <label htmlFor="waitlist-email" className="mb-1 block font-medium">
@@ -125,6 +131,11 @@ export function Waitlist() {
               type="email"
               required
               autoComplete="email"
+              maxLength={254}
+              inputMode="email"
+              autoCapitalize="none"
+              spellCheck={false}
+              aria-invalid={fieldError === "email"}
               className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
             />
           </div>
@@ -136,6 +147,8 @@ export function Waitlist() {
               id="waitlist-name"
               name="name"
               autoComplete="name"
+              maxLength={80}
+              aria-invalid={fieldError === "name"}
               className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
             />
           </div>
@@ -148,16 +161,25 @@ export function Waitlist() {
               name="phone"
               type="tel"
               autoComplete="tel"
+              maxLength={20}
+              inputMode="tel"
+              aria-invalid={fieldError === "phone"}
               className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
             />
           </div>
-          {status === "error" ? (
+          {status === "error" && fieldError ? (
             <p className="text-rose-deep" role="alert">
-              לא הצלחנו לשלוח את ההרשמה. נסי שוב בעוד רגע, או כתבי ישירות אל{" "}
-              <a className="underline" href={`mailto:${waitlistNotifyEmail}`}>
-                {waitlistNotifyEmail}
-              </a>
-              .
+              {fieldMessages[fieldError]}
+              {fieldError === "form" || fieldError === "pageUrl" ? (
+                <>
+                  {" "}
+                  או כתבי ישירות אל{" "}
+                  <a className="underline" href={`mailto:${waitlistNotifyEmail}`}>
+                    {waitlistNotifyEmail}
+                  </a>
+                  .
+                </>
+              ) : null}
             </p>
           ) : null}
           <Button type="submit" disabled={status === "submitting"}>

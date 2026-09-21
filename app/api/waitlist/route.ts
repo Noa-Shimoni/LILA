@@ -1,36 +1,53 @@
 import { waitlistNotifyEmail } from "@/content/site";
 import { isFormSubmitAccepted } from "@/lib/formsubmit";
+import {
+  isAllowedWaitlistOrigin,
+  parseWaitlistJsonSize,
+  validateWaitlistPayload,
+} from "@/lib/waitlist-validation";
 import { NextResponse } from "next/server";
 
 const inbox = process.env.WAITLIST_NOTIFY_EMAIL?.trim() || waitlistNotifyEmail;
 
-function asString(value: unknown) {
-  return typeof value === "string" ? value.trim() : "";
-}
-
 export async function POST(request: Request) {
-  let body: Record<string, unknown>;
-
-  try {
-    body = (await request.json()) as Record<string, unknown>;
-  } catch {
-    return NextResponse.json({ ok: false }, { status: 400 });
+  const contentType = request.headers.get("content-type") ?? "";
+  if (!contentType.toLowerCase().startsWith("application/json")) {
+    return NextResponse.json({ ok: false, field: "form" }, { status: 415 });
   }
 
-  if (asString(body.company)) {
+  const requestUrl = new URL(request.url);
+  if (!isAllowedWaitlistOrigin(request.headers.get("origin"), requestUrl)) {
+    return NextResponse.json({ ok: false, field: "form" }, { status: 403 });
+  }
+
+  let rawBody: string;
+  try {
+    rawBody = await request.text();
+  } catch {
+    return NextResponse.json({ ok: false, field: "form" }, { status: 400 });
+  }
+
+  if (!parseWaitlistJsonSize(request.headers.get("content-length"), rawBody)) {
+    return NextResponse.json({ ok: false, field: "form" }, { status: 413 });
+  }
+
+  let body: unknown;
+  try {
+    body = JSON.parse(rawBody) as unknown;
+  } catch {
+    return NextResponse.json({ ok: false, field: "form" }, { status: 400 });
+  }
+
+  const parsed = validateWaitlistPayload(body, requestUrl);
+  if (!parsed.ok) {
+    return NextResponse.json({ ok: false, field: parsed.field }, { status: 400 });
+  }
+
+  if (parsed.honeypot) {
     return NextResponse.json({ ok: true });
   }
 
-  const email = asString(body.email);
-  const name = asString(body.name);
-  const phone = asString(body.phone);
-  const pageUrl = asString(body.pageUrl) || request.headers.get("referer") || "https://lila.local/waitlist";
-
-  if (!email.includes("@") || email.length < 5) {
-    return NextResponse.json({ ok: false }, { status: 400 });
-  }
-
-  const origin = request.headers.get("origin") || new URL(request.url).origin;
+  const { email, name, phone, pageUrl } = parsed.values;
 
   try {
     const response = await fetch(
@@ -40,11 +57,9 @@ export async function POST(request: Request) {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
-          Origin: origin,
+          Origin: requestUrl.origin,
           Referer: pageUrl,
-          "User-Agent":
-            request.headers.get("user-agent") ||
-            "Mozilla/5.0 (compatible; LILA-waitlist)",
+          "User-Agent": "Mozilla/5.0 (compatible; LILA-waitlist)",
         },
         body: JSON.stringify({
           _subject: "LILA — הרשמה לערכה",
@@ -64,8 +79,8 @@ export async function POST(request: Request) {
       return NextResponse.json({ ok: true });
     }
 
-    return NextResponse.json({ ok: false }, { status: 502 });
+    return NextResponse.json({ ok: false, field: "form" }, { status: 502 });
   } catch {
-    return NextResponse.json({ ok: false }, { status: 502 });
+    return NextResponse.json({ ok: false, field: "form" }, { status: 502 });
   }
 }

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ClipVideo } from "@/components/home/ClipVideo";
+import { UnderwearCarousel } from "@/components/kit/UnderwearCarousel";
 import { ProductMark } from "@/components/illustrations/ProductMark";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Section";
@@ -31,7 +33,7 @@ export default async function KitItemPage({ params }: Props) {
         </Link>
       </p>
       <div className="mt-6 grid items-start gap-10 lg:grid-cols-[1fr_1.2fr]">
-        <div className="rounded-[2rem] bg-white/70 p-8 ring-1 ring-ink/5">
+        <div className="overflow-hidden rounded-[2rem] bg-white/70 p-3 ring-1 ring-ink/5 sm:p-4 lg:sticky lg:top-24">
           <ProductMark slug={item.slug} size="hero" />
         </div>
         <div>
@@ -39,6 +41,16 @@ export default async function KitItemPage({ params }: Props) {
           <p className="mt-4 text-lg text-muted">{item.summary}</p>
           <h2 className="mt-8 text-xl font-medium">איך זה עובד</h2>
           <p className="mt-2 text-muted">{item.how}</p>
+          {item.slug === "pads" ? (
+            <div className="mt-6">
+              <ClipVideo />
+            </div>
+          ) : null}
+          {item.slug === "underwear" ? (
+            <div className="mt-6">
+              <UnderwearCarousel />
+            </div>
+          ) : null}
           <h2 className="mt-8 text-xl font-medium">במילים פשוטות</h2>
           <p className="mt-2 text-muted">{item.extra}</p>
           <p className="mt-8 text-sm text-muted">
