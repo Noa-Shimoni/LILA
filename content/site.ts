@@ -11,18 +11,21 @@ export const waitlistNotifyEmail = "noashimoni@gmail.com";
 
 export const navLinks = [
   { href: "/kit", label: "מה יש בערכה?" },
-  { href: "/how-it-works", label: "איך זה עובד?" },
+  { href: "/journey", label: "מסע ההתבגרות" },
+  { href: "/parents", label: "להורים" },
   { href: "/guide", label: "מדריך למחזור הראשון" },
   { href: "/#waitlist", label: "הרשמה לערכה" },
-  { href: "/faq", label: "שאלות נפוצות" },
 ] as const;
 
 export const footerLinks = {
   explore: [
     { href: "/about", label: "עלינו" },
     { href: "/kit", label: "מה יש בערכה" },
+    { href: "/journey", label: "מסע ההתבגרות" },
+    { href: "/how-it-works", label: "איך זה עובד" },
     { href: "/guide", label: "מדריך למחזור הראשון" },
     { href: "/mothers", label: "מדריך לאמהות" },
+    { href: "/parents", label: "להורים" },
   ],
   help: [
     { href: "/faq", label: "שאלות נפוצות" },

@@ -16,7 +16,7 @@ export function Header() {
           <BrandLogo decorative priority />
         </Link>
 
-        <nav className="hidden items-center gap-8 lg:flex" aria-label="ראשי">
+        <nav className="hidden items-center gap-4 xl:gap-7 lg:flex" aria-label="ראשי">
           {navLinks.map((link) => (
             <Link
               key={link.href}
