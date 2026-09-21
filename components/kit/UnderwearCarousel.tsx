@@ -38,7 +38,7 @@ export function UnderwearCarousel() {
       role="region"
       aria-roledescription="קרוסלה"
       aria-labelledby={labelId}
-      className="relative overflow-hidden rounded-[1.5rem] bg-white/70 shadow-soft ring-1 ring-ink/5 sm:rounded-[2rem]"
+      className="relative w-full overflow-hidden rounded-[1.5rem] bg-white/70 shadow-soft ring-1 ring-ink/5 sm:rounded-[2rem] lg:mx-auto lg:max-w-[28rem]"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onFocusCapture={() => setPaused(true)}
@@ -51,7 +51,7 @@ export function UnderwearCarousel() {
       <p id={labelId} className="sr-only">
         תמונות של תחתוני הוסת
       </p>
-      <div className="relative aspect-square w-full max-h-[min(70vh,32rem)]">
+      <div className="relative aspect-square w-full max-h-[min(70vh,32rem)] lg:max-h-none">
         {slides.map((slide, slideIndex) => (
           <Image
             key={slide.src}
@@ -59,8 +59,8 @@ export function UnderwearCarousel() {
             alt={slide.alt}
             width={1254}
             height={1254}
-            sizes="(min-width: 1024px) 36vw, 90vw"
-            className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ease-lila ${
+            sizes="(min-width: 1024px) 28rem, 90vw"
+            className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-500 ease-lila lg:object-contain ${
               slideIndex === index ? "opacity-100" : "pointer-events-none opacity-0"
             }`}
             priority={slideIndex === 0}
