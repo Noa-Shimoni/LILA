@@ -3,7 +3,8 @@ import { Heebo, IBM_Plex_Sans_Hebrew } from "next/font/google";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { SkipLink } from "@/components/layout/SkipLink";
-import { brand } from "@/content/site";
+import { pageSeo } from "@/content/seo";
+import { getSiteUrl } from "@/lib/seo";
 import "./globals.css";
 
 const sans = IBM_Plex_Sans_Hebrew({
@@ -21,20 +22,11 @@ const heading = Heebo({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: `${brand.name} · ${brand.tagline}`,
-    template: `%s · ${brand.name}`,
-  },
-  description: brand.description,
+  metadataBase: new URL(getSiteUrl()),
+  ...pageSeo.home,
   referrer: "origin",
   icons: {
     icon: "/logo.png",
-  },
-  openGraph: {
-    title: `${brand.name} · ${brand.tagline}`,
-    description: brand.description,
-    locale: "he_IL",
-    type: "website",
   },
 };
 

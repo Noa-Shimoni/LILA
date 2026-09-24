@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
 
-export const metadata: Metadata = { title: "פרטיות" };
+import { pageSeo } from "@/content/seo";
+
+export const metadata = pageSeo.privacy;
 
 export default function PrivacyPage() {
   return (

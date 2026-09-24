@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ClipVideo } from "@/components/home/ClipVideo";
@@ -6,6 +5,7 @@ import { UnderwearCarousel } from "@/components/kit/UnderwearCarousel";
 import { ProductMark } from "@/components/illustrations/ProductMark";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { kitItems } from "@/content/kit";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -14,10 +14,12 @@ export function generateStaticParams() {
   return kitItems.map((item) => ({ slug: item.slug }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
-  const item = kitItems.find((i) => i.slug === slug);
-  return { title: item?.name ?? "פריט בערכה" };
+  if (slug in pageSeo.kitItem) {
+    return pageSeo.kitItem[slug as keyof typeof pageSeo.kitItem];
+  }
+  return pageSeo.kit;
 }
 
 export default async function KitItemPage({ params }: Props) {

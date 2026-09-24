@@ -1,13 +1,10 @@
-import type { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { absorbencyMethods } from "@/content/kit";
 
-export const metadata: Metadata = {
-  title: "איך זה עובד",
-  description: "הסברים רגועים על תחבושות, תחתוני וסת וטמפונים — בלי לחץ ובלי דרך אחת נכונה.",
-};
+export const metadata = pageSeo.howItWorks;
 
 export default function HowItWorksPage() {
   return (

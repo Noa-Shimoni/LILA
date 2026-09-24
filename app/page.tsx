@@ -9,6 +9,9 @@ import { ShopFaq } from "@/components/home/ShopFaq";
 import { Timeline } from "@/components/home/Timeline";
 import { Waitlist } from "@/components/home/Waitlist";
 import { Why } from "@/components/home/Why";
+import { pageSeo } from "@/content/seo";
+
+export const metadata = pageSeo.home;
 
 export default function HomePage() {
   return (

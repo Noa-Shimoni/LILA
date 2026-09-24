@@ -1,14 +1,11 @@
-import type { Metadata } from "next";
 import { Accordion } from "@/components/ui/Accordion";
 import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { girlFaqs, timeline } from "@/content/guide";
 
-export const metadata: Metadata = {
-  title: "מדריך למחזור הראשון",
-  description: "מה קורה כשמקבלים מחזור, מה עושים עכשיו, ותשובות לשאלות שילדות באמת שואלות.",
-};
+export const metadata = pageSeo.guide;
 
 export default function GuidePage() {
   return (

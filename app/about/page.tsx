@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
 
-export const metadata: Metadata = { title: "עלינו" };
+import { pageSeo } from "@/content/seo";
+
+export const metadata = pageSeo.about;
 
 export default function AboutPage() {
   return (

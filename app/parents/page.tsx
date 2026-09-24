@@ -1,12 +1,10 @@
-import type { Metadata } from "next";
 import { ParentEntry } from "@/components/journey/ParentEntry";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Section";
 
-export const metadata: Metadata = {
-  title: "להורים",
-  description: "איך להיות שם בשביל הבת בלי לקחת ממנה את העצמאות.",
-};
+import { pageSeo } from "@/content/seo";
+
+export const metadata = pageSeo.parents;
 
 export default function ParentsPage() {
   return (

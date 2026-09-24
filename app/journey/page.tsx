@@ -1,13 +1,10 @@
-import type { Metadata } from "next";
 import { StagePicker } from "@/components/journey/StagePicker";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Section";
 
-export const metadata: Metadata = {
-  title: "מסע ההתבגרות",
-  description:
-    "ליווי חם להבנת הגוף, השלב הנוכחי, ומה יכול לבוא בהמשך.",
-};
+import { pageSeo } from "@/content/seo";
+
+export const metadata = pageSeo.journey;
 
 export default function JourneyLandingPage() {
   return (

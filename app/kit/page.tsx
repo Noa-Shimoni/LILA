@@ -1,16 +1,13 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { ProductMark } from "@/components/illustrations/ProductMark";
 import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { kitItems, kitPromise } from "@/content/kit";
 import { cta } from "@/content/site";
 
-export const metadata: Metadata = {
-  title: "מה יש בערכה",
-  description: "היכרות עם תחבושות, תחתוני וסת, מכתב לילדה ונרתיק צבעוני — בקצב שלה, בלי חובה להשתמש בהכול.",
-};
+export const metadata = pageSeo.kit;
 
 const tones: Record<string, string> = {
   peach: "bg-peach/45",

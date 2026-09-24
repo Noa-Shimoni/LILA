@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
 
-export const metadata: Metadata = { title: "יצירת קשר" };
+import { pageSeo } from "@/content/seo";
+
+export const metadata = pageSeo.contact;
 
 export default function ContactPage() {
   return (
