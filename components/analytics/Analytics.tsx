@@ -3,8 +3,16 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { applyConsent, ensureConsentDefault, installGtm } from "@/components/analytics/gtm";
 import { captureUtm } from "@/lib/utm";
-import { getConsent, openConsent, pixelId, setConsent, track } from "@/components/analytics/track";
+import {
+  beginPageView,
+  getConsent,
+  openConsent,
+  pixelId,
+  setConsent,
+  track,
+} from "@/components/analytics/track";
 
 function installPixel(id: string) {
   if (typeof window.fbq === "function") {
@@ -39,22 +47,57 @@ function installPixel(id: string) {
   window.fbq("init", id);
 }
 
+function enableMeasurement(id: string, path: string) {
+  applyConsent(true);
+  installGtm();
+  if (id && !window.__lilaPixelDisabled) {
+    installPixel(id);
+  }
+  if (window.__lilaPageViewQueuedFor !== path) {
+    track("page_view", { path });
+    return;
+  }
+  if (!id || window.__lilaPixelDisabled || window.__lilaPixelPageViewFor === path) {
+    return;
+  }
+  if (typeof window.fbq !== "function") {
+    return;
+  }
+  window.fbq("track", "PageView");
+  window.__lilaPixelPageViewFor = path;
+}
+
 export function Analytics() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const id = pixelId();
 
   useEffect(() => {
+    ensureConsentDefault();
     captureUtm();
+    if (getConsent() === "granted") {
+      applyConsent(true);
+      installGtm();
+      if (id && !window.__lilaPixelDisabled) {
+        installPixel(id);
+      }
+    }
+    if (!beginPageView(pathname)) {
+      return;
+    }
     track("page_view", { path: pathname });
-  }, [pathname]);
+  }, [pathname, id]);
 
   useEffect(() => {
     const sync = () => {
       const consent = getConsent();
       setOpen(consent === null);
-      if (consent === "granted" && id && !window.__lilaPixelDisabled) {
-        installPixel(id);
+      if (consent === "granted") {
+        enableMeasurement(id, pathname);
+        return;
+      }
+      if (consent === "denied") {
+        applyConsent(false);
       }
     };
     const force = () => setOpen(true);
@@ -65,7 +108,7 @@ export function Analytics() {
       window.removeEventListener("lila-consent", sync);
       window.removeEventListener("lila-consent-open", force);
     };
-  }, [id]);
+  }, [id, pathname]);
 
   if (!open) {
     return null;

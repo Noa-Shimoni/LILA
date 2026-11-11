@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { track } from "@/components/analytics/track";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow, Lead, Section, Title } from "@/components/ui/Section";
 import { waitlistNotifyEmail } from "@/content/site";
@@ -28,6 +29,15 @@ function readField(value: FormDataEntryValue | null) {
 export function Waitlist() {
   const [status, setStatus] = useState<Status>("idle");
   const [fieldError, setFieldError] = useState<WaitlistField | null>(null);
+  const started = useRef(false);
+
+  function markStarted() {
+    if (started.current) {
+      return;
+    }
+    started.current = true;
+    track("form_start", { form: "kit", source: "waitlist" });
+  }
 
   if (status === "sent") {
     return (
@@ -53,6 +63,7 @@ export function Waitlist() {
         <form
           className="relative mt-8 grid max-w-xl gap-5"
           noValidate
+          onFocus={markStarted}
           onSubmit={async (event) => {
             event.preventDefault();
             const form = event.currentTarget;
@@ -65,16 +76,19 @@ export function Waitlist() {
             if (!validateWaitlistEmail(email)) {
               setFieldError("email");
               setStatus("error");
+              track("form_error", { form: "kit", source: "waitlist", field: "email" });
               return;
             }
             if (validateWaitlistName(name) === null) {
               setFieldError("name");
               setStatus("error");
+              track("form_error", { form: "kit", source: "waitlist", field: "name" });
               return;
             }
             if (validateWaitlistPhone(phone) === null) {
               setFieldError("phone");
               setStatus("error");
+              track("form_error", { form: "kit", source: "waitlist", field: "phone" });
               return;
             }
 
@@ -99,15 +113,19 @@ export function Waitlist() {
                 | null;
 
               if (!apiResponse.ok || !apiResult?.ok) {
-                setFieldError(apiResult?.field ?? "form");
+                const field = apiResult?.field ?? "form";
+                setFieldError(field);
                 setStatus("error");
+                track("form_error", { form: "kit", source: "waitlist", field });
                 return;
               }
 
+              track("lead", { form: "kit", source: "waitlist" });
               setStatus("sent");
             } catch {
               setFieldError("form");
               setStatus("error");
+              track("form_error", { form: "kit", source: "waitlist", field: "form" });
             }
           }}
         >

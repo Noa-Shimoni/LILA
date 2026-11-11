@@ -33,9 +33,11 @@ export default function PrivacyPage() {
         </p>
         <h2 className="font-serif text-2xl text-ink">מדידה ועוגיות</h2>
         <p>
-          בלי אישור, לא נטען Meta Pixel ולא נשלח אירוע המרה אל Meta. גם אחרי אישור, הפיקסל נטען רק
-          אם הוגדר מזהה אמיתי בהגדרות האתר. אין באתר מזהה פיקסל לדוגמה. אפשר לשנות את הבחירה בכפתור
-          הגדרות העוגיות שבתחתית האתר.
+          בלי אישור, לא נטען Meta Pixel ולא נשלח אירוע המרה אל Meta, וגם לא נטען Google Tag Manager
+          או Google Analytics. אחרי אישור, Google Tag Manager נטען וממנו נשלחת מדידה אל Google
+          Analytics. שמות, כתובות מייל ומספרי טלפון לא נשלחים אל Google Analytics. גם אחרי אישור,
+          הפיקסל נטען רק אם הוגדר מזהה אמיתי בהגדרות האתר. אין באתר מזהה פיקסל לדוגמה. אפשר לשנות את
+          הבחירה בכפתור הגדרות העוגיות שבתחתית האתר.
         </p>
         <h2 className="font-serif text-2xl text-ink">מחיקה</h2>
         <p>
