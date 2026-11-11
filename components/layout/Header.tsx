@@ -1,13 +1,18 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { BrandLogo } from "@/components/illustrations/BrandLogo";
-import { brand, cta, navLinks } from "@/content/site";
+import { brand, navLinks } from "@/content/site";
 import { Button } from "@/components/ui/Button";
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const onWorkshops = pathname.startsWith("/workshops");
+  const ctaHref = onWorkshops ? "#register" : "/workshops";
+  const ctaLabel = onWorkshops ? "להשאיר פרטים" : "לסדנאות";
 
   return (
     <header className="sticky top-0 z-50 border-b border-ink/5 bg-cream/80 backdrop-blur-md">
@@ -21,7 +26,8 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-[0.95rem] text-ink/80 transition hover:text-rose"
+              aria-current={pathname === link.href || pathname.startsWith(`${link.href}/`) ? "page" : undefined}
+              className="text-[0.95rem] text-ink/80 transition hover:text-rose aria-[current=page]:font-medium aria-[current=page]:text-rose"
             >
               {link.label}
             </Link>
@@ -30,7 +36,9 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <div className="hidden sm:block">
-            <Button href="/kit">{cta.primary}</Button>
+            <Button href={ctaHref} trackId="header-workshops">
+              {ctaLabel}
+            </Button>
           </div>
           <button
             type="button"
@@ -56,18 +64,19 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="min-h-11 rounded-xl px-3 py-3 text-ink hover:bg-peach/50"
+                aria-current={pathname === link.href || pathname.startsWith(`${link.href}/`) ? "page" : undefined}
+                className="min-h-12 rounded-xl px-3 py-3 text-ink hover:bg-peach/50 aria-[current=page]:font-medium"
                 onClick={() => setOpen(false)}
               >
                 {link.label}
               </Link>
             ))}
             <Link
-              href="/kit"
-              className="mt-2 min-h-11 rounded-full bg-rose-deep px-4 py-3 text-center text-white"
+              href={ctaHref}
+              className="mt-2 inline-flex min-h-12 items-center justify-center rounded-full bg-rose-deep px-4 py-3 text-center text-white"
               onClick={() => setOpen(false)}
             >
-              {cta.primary}
+              {ctaLabel}
             </Link>
           </nav>
         </div>

@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
 import { Accordion } from "@/components/ui/Accordion";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { girlFaqs, shopFaqs } from "@/content/guide";
 
-export const metadata: Metadata = { title: "שאלות נפוצות" };
+export const metadata = pageSeo.faq;
 
 export default function FaqPage() {
   return (
