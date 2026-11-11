@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { ConsentSettingsButton } from "@/components/analytics/Analytics";
 import { BrandLogo } from "@/components/illustrations/BrandLogo";
-import { brand, footerLinks } from "@/content/site";
+import { brand, footerLinks, waitlistNotifyEmail } from "@/content/site";
 
 export function Footer() {
   return (
@@ -8,8 +9,11 @@ export function Footer() {
       <div className="mx-auto grid max-w-content gap-10 px-5 py-14 sm:px-8 md:grid-cols-4">
         <div className="md:col-span-2">
           <BrandLogo />
-          <p className="mt-4 max-w-sm text-muted">
-            ערכת היכרות למחזור הראשון. חמה, ברורה, בלי מבוכה ובלי דרמה.
+          <p className="mt-4 max-w-sm text-muted">{brand.description}</p>
+          <p className="mt-4">
+            <a className="text-rose underline" href={`mailto:${waitlistNotifyEmail}`}>
+              {waitlistNotifyEmail}
+            </a>
           </p>
           <p className="mt-6 text-sm text-muted">
             המידע באתר הוא הסבר כללי ולא תחליף לייעוץ רפואי. אם משהו מדאיג — דברו עם מבוגר או עם רופא/ה.
@@ -40,8 +44,14 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-ink/5 py-5 text-center text-sm text-muted">
-        © {new Date().getFullYear()} {brand.name}. אתר דמו — מוכן לחיבור חנות וסליקה.
+      <div className="border-t border-ink/5 px-5 py-5 text-center text-sm text-muted">
+        <p>
+          © {new Date().getFullYear()} {brand.name}. החנות עדיין לא פתוחה לרכישה. הסדנאות ייפתחו
+          להרשמה כשיהיו מועדים.
+        </p>
+        <p className="mt-2">
+          <ConsentSettingsButton />
+        </p>
       </div>
     </footer>
   );

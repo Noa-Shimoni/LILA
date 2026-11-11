@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
 
-export const metadata: Metadata = { title: "משלוחים והחזרות" };
+import { pageSeo } from "@/content/seo";
+
+export const metadata = pageSeo.shipping;
 
 export default function ShippingPage() {
   return (

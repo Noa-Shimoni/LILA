@@ -1,14 +1,11 @@
-import type { Metadata } from "next";
 import { Accordion } from "@/components/ui/Accordion";
 import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { girlFaqs, timeline } from "@/content/guide";
 
-export const metadata: Metadata = {
-  title: "מדריך למחזור הראשון",
-  description: "מה קורה כשמקבלים מחזור, מה עושים עכשיו, ותשובות לשאלות שילדות באמת שואלות.",
-};
+export const metadata = pageSeo.guide;
 
 export default function GuidePage() {
   return (
@@ -17,6 +14,7 @@ export default function GuidePage() {
         eyebrow="מדריך"
         title="אז… קיבלתי מחזור. מה עכשיו?"
         lead="את לא אמורה לדעת הכול כבר בפעם הראשונה. בשביל זה לומדים. המדריך הזה מדבר אלייך בגובה העיניים."
+        art="girl-book"
       />
       <Container className="py-14">
         <ol className="grid gap-5 md:grid-cols-2">

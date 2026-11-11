@@ -1,16 +1,14 @@
-import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ProductMark } from "@/components/illustrations/ProductMark";
 import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { kitItems, kitPromise } from "@/content/kit";
 import { cta } from "@/content/site";
 
-export const metadata: Metadata = {
-  title: "מה יש בערכה",
-  description: "היכרות עם תחבושות, תחתוני וסת, מכתב לילדה ונרתיק צבעוני — בקצב שלה, בלי חובה להשתמש בהכול.",
-};
+export const metadata = pageSeo.kit;
 
 const tones: Record<string, string> = {
   peach: "bg-peach/45",
@@ -26,8 +24,18 @@ export default function KitPage() {
         eyebrow="הערכה"
         title="כל מה שצריך כדי להכיר, להבין ולהרגיש מוכנה."
         lead="זאת לא ערכת חירום. זאת ערכת היכרות: תחבושות, תחתוני וסת, מכתב לילדה ונרתיק צבעוני — ומקום להתנסות בלי לחץ."
+        art="girl-kit"
       />
       <Container className="py-14">
+        <Image
+          src="/full-kit.jpg"
+          alt="ערכת LILA בקופסה לילך: תחתוני מחזור, תחבושות, נרתיק, ומכתב עם איור של ילדה"
+          width={1400}
+          height={1003}
+          priority
+          sizes="(min-width: 768px) 720px, 92vw"
+          className="mx-auto h-auto w-full max-w-3xl rounded-[1.75rem] bg-white object-contain ring-1 ring-ink/10"
+        />
         <ul className="flex flex-wrap gap-3">
           {kitPromise.map((item) => (
             <li key={item} className="rounded-full bg-white/70 px-4 py-2 ring-1 ring-ink/5">

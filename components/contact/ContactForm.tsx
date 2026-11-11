@@ -31,7 +31,7 @@ export function ContactForm() {
           name="name"
           required
           autoComplete="name"
-          className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
+          className="lila-field"
         />
       </div>
       <div>
@@ -44,7 +44,7 @@ export function ContactForm() {
           type="email"
           required
           autoComplete="email"
-          className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
+          className="lila-field"
         />
       </div>
       <div>
@@ -56,7 +56,7 @@ export function ContactForm() {
           name="message"
           required
           rows={5}
-          className="w-full rounded-2xl bg-white px-4 py-3 ring-1 ring-ink/10"
+          className="lila-field min-h-32"
         />
       </div>
       <Button type="submit">שליחה</Button>

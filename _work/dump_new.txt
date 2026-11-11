@@ -1,0 +1,482 @@
+﻿=== SLIDE 1 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [619,-90,410,410] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-101,346,360,360] fill:#E2D8F2 t1  
+  3 'Oval 3' type1 ast9 [677,353,173,173] fill:#E2D8F2 t1  
+  4 'TextBox 4' type17 ast1 [72,97,814,90]   [Aptos/+mn-cs 58 b-1 #4F3653] Lila
+  5 'TextBox 5' type17 ast1 [79,193,799,41]   [Aptos/+mn-cs 27 b-1 #C989A5] לגדול זה מסע
+  6 'TextBox 6' type17 ast1 [115,273,727,34]   [Aptos/+mn-cs 21 b0 #483D4A] מותג ישראלי להכנה למחזור הראשון ולתחילת גיל ההתבגרות
+  7 'TextBox 7' type17 ast1 [115,330,727,28]   [Aptos/+mn-cs 16 b-2 #827385] מוצרי היגיינה נשית  תוכן חינוכי   כלים לשיחה בין הורים לילדות
+  8 'TextBox 8' type17 ast1 [115,486,727,22]   [Aptos/+mn-cs 11 b0 #827385] מצגת היכרות / תוכנית עסקית
+=== SLIDE 2 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,43,814,43]   [Aptos/Arial 28 b-1 #4F3653] היזמית
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 02
+  7 'TextBox 7' type17 ast1 [219,31,496,46]   [Aptos/Arial 31 b-1 #4F3653] נעה חקאק
+  8 'TextBox 8' type17 ast1 [467,117,336,115]   [Aptos/+mn-cs 22 b-2 #483D4A] אמא לילדה מתבגרת | BSc בביולוגיה | מנהלת מכירות של ציוד רפואי | בעלת נ
+  9 'TextBox 12' type17 ast1 [261,271,549,104]   [Calibri/+mn-cs 20 b0 #000000] בניתי את Lila בעקבות הצורך שלי בהכנה טובה ונכונה של הבת שלי לקראת מחזו
+  10 'Picture 14' type13 ast1 [56,44,248,212]   
+=== SLIDE 3 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,40,814,50]   [Aptos/+mn-cs 28 b-1 #4F3653] הרעיון הגדול
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 02
+  7 'TextBox 7' type17 ast1 [94,146,778,46]   [Aptos/+mn-cs 31 b-1 #4F3653] לא רק ערכה למחזור הראשון - ליווי שגדל יחד עם הילדה.
+  8 'TextBox 8' type17 ast1 [144,239,677,62]   [Aptos/+mn-cs 22 b-2 #483D4A] Lila מתחילה ברגע משמעותי אחד ומתרחבת למסע אישי שמלווה את הילדה בשלבים 
+  9 'Rounded Rectangle 9' type1 ast5 [230,364,497,52] fill:#E2D8F2 t1  
+  10 'TextBox 10' type17 ast1 [241,371,475,32]   [Aptos/+mn-cs 19 b-1 #4F3653] ממוצר נקודתי , למותג שמלווה מסע
+=== SLIDE 4 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,40,814,50]   [Aptos/+mn-cs 28 b-1 #4F3653] הבעיה שאנחנו רוצות לפתור
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 03
+  7 'TextBox 7' type17 ast1 [86,126,778,167]   [Aptos/+mn-cs 21 b0 #483D4A] •  המחזור הראשון ותחילת ההתבגרות יכולים להגיע עם שאלות, חוסר ודאות ומב
+  8 'TextBox 8' type17 ast1 [90,431,778,31]   [Aptos/+mn-cs 18 b-1 #C989A5] הזדמנות:  להפוך רגע שעלול להיות מלחיץ לחוויה של מוכנות, ביטחון וקשר בי
+=== SLIDE 5 layout:Blank followMaster:-1 bg:#FFFFFF
+  1 'TextBox 1' type17 ast1 [47,27,864,34]   [Aptos/+mn-cs 26 b-1 #5B415E] ההתבגרות מתחילה — אבל האם הילדה מוכנה?
+  2 'TextBox 2' type17 ast1 [49,69,864,17]   [Aptos/+mn-cs 12 b0 #776D77] הצורך אינו רק במוצר, אלא גם בידע, בהכנה ובתמיכה
+  3 'Rounded Rectangle 3' type1 ast5 [52,117,198,184] fill:#F6E7E4 t1 line:#E0D8E0 w0.7 
+  4 'TextBox 4' type17 ast1 [60,125,181,18]   [Aptos/+mn-cs 10 b-1 #5B415E] 01
+  5 'TextBox 5' type17 ast1 [60,151,181,35]   [Aptos/+mn-cs 15 b-1 #5B415E] שינויים שמגיעים מוקדם
+  6 'TextBox 6' type17 ast1 [60,215,181,43]   [Aptos/+mn-cs 11 b0 #363037] ההתבגרות הפיזית עשויה להתחיל בגיל צעיר, כשהילדה עדיין זקוקה להכנה ולהס
+  7 'Rounded Rectangle 7' type1 ast5 [265,117,198,184] fill:#E7EEE6 t1 line:#E0D8E0 w0.7 
+  8 'TextBox 8' type17 ast1 [274,125,181,18]   [Aptos/+mn-cs 10 b-1 #5B415E] 02
+  9 'TextBox 9' type17 ast1 [274,151,181,35]   [Aptos/+mn-cs 15 b-1 #5B415E] חוסר ידע ומבוכה
+  10 'TextBox 10' type17 ast1 [274,222,181,30]   [Aptos/+mn-cs 11 b0 #363037] ללא הכנה מספקת, הווסת הראשונה עלולה לעורר בלבול, חשש וחוסר ודאות.
+  11 'Rounded Rectangle 11' type1 ast5 [478,117,198,184] fill:#FFFFFF t1 line:#E0D8E0 w0.7 
+  12 'TextBox 12' type17 ast1 [487,125,181,18]   [Aptos/+mn-cs 10 b-1 #5B415E] 03
+  13 'TextBox 13' type17 ast1 [487,151,181,35]   [Aptos/+mn-cs 15 b-1 #5B415E] קושי לפתוח שיחה
+  14 'TextBox 14' type17 ast1 [487,222,181,30]   [Aptos/+mn-cs 11 b0 #363037] גם הורים שרוצים לעזור עשויים להיתקל בחוסר ידע או במבוכה.
+  15 'Rounded Rectangle 15' type1 ast5 [693,117,215,184] fill:#EBE2EF t1 line:#E0D8E0 w0.7 
+  16 'TextBox 16' type17 ast1 [704,128,192,22]   [Aptos/+mn-cs 13 b-1 #5B415E] הנתון הישראלי
+  17 'TextBox 17' type17 ast1 [704,155,192,50]   [Aptos/+mn-cs 29 b-1 #5B415E] 13 → 12.5
+  18 'TextBox 18' type17 ast1 [704,230,192,27]   [Aptos/+mn-cs 10 b0 #363037] הגיל החציוני לקבלת הווסת הראשונהבסקרים הארציים: 2003–04 לעומת 2015–16
+  19 'Rounded Rectangle 19' type1 ast5 [52,328,855,99] fill:#F7F3F7 t1 line:#E0D8E0 w0.7 
+  20 'TextBox 20' type17 ast1 [71,336,817,20]   [Aptos/+mn-cs 14 b-1 #5B415E] הבעיה ש־LILA מבקשת לפתור
+  21 'TextBox 21' type17 ast1 [76,368,806,39]   [Aptos/+mn-cs 15 b-1 #363037] מוצרים, מידע והכוונה לא תמיד מגיעים יחד. ילדות והורים זקוקים למענה נגי
+  22 'TextBox 22' type17 ast1 [52,465,857,27]   [Aptos/+mn-cs 10 b0 #776D77] מקורות: Menarche at an Earlier Age, Journal of Pediatric and Adolescen
+=== SLIDE 6 layout:Blank followMaster:-1 bg:#FFFFFF
+  1 'TextBox 1' type17 ast1 [43,25,871,32]   [Aptos/+mn-cs 24 b-1 #5B415E] מה למדנו מההורים? צרכים, עניין ופוטנציאל לערכת LILA
+  2 'TextBox 2' type17 ast1 [47,66,864,15]   [Aptos/+mn-cs 10 b0 #746B75] ממצאי שאלון ראשוני | 28 משיבות | אוגוסט 2026
+  3 'Rounded Rectangle 3' type1 ast5 [47,97,277,88] fill:#EBE2EF t1 line:#E0D8E0 w0.7 
+  4 'TextBox 4' type17 ast1 [55,103,260,35]   [Aptos/+mn-cs 25 b-1 #5B415E] 72%
+  5 'TextBox 5' type17 ast1 [55,137,260,18]   [Aptos/+mn-cs 12 b-1 #363037] מתעניינות בערכה
+  6 'TextBox 6' type17 ast1 [55,160,260,13]   [Aptos/+mn-cs 8 b0 #746B75] 18 מתוך 25 משיבות: 'מאוד' או 'מעניין'
+  7 'Rounded Rectangle 7' type1 ast5 [341,97,277,88] fill:#F6E7E4 t1 line:#E0D8E0 w0.7 
+  8 'TextBox 8' type17 ast1 [349,103,260,35]   [Aptos/+mn-cs 25 b-1 #5B415E] 81%
+  9 'TextBox 9' type17 ast1 [349,137,260,18]   [Aptos/+mn-cs 12 b-1 #363037] סבירות לרכישה
+  10 'TextBox 10' type17 ast1 [349,160,260,13]   [Aptos/+mn-cs 8 b0 #746B75] 22 מתוך 27: 'בהחלט' או 'סביר שהייתי קונה'
+  11 'Rounded Rectangle 11' type1 ast5 [634,97,277,88] fill:#E7EEE6 t1 line:#E0D8E0 w0.7 
+  12 'TextBox 12' type17 ast1 [643,103,260,35]   [Aptos/+mn-cs 25 b-1 #5B415E] 63%
+  13 'TextBox 13' type17 ast1 [643,137,260,18]   [Aptos/+mn-cs 12 b-1 #363037] מחיר הוגן עד 79 ₪
+  14 'TextBox 14' type17 ast1 [643,160,260,13]   [Aptos/+mn-cs 8 b0 #746B75] 17 מתוך 27 בחרו בטווח המחיר הנמוך ביותר
+  15 'Rounded Rectangle 15' type1 ast5 [47,207,425,155] fill:#FFFFFF t1 line:#E0D8E0 w0.7 
+  16 'TextBox 16' type17 ast1 [61,215,396,22]   [Aptos/+mn-cs 14 b-1 #5B415E] מה הכי מעסיק את ההורים?
+  17 'TextBox 17' type17 ast1 [63,242,189,16]   [Aptos/+mn-cs 9 b0 #363037] להרגיש בנוח ולא להילחץ
+  18 'Rounded Rectangle 18' type1 ast5 [253,244,162,9] fill:#F1EDF1 t1  
+  19 'Rounded Rectangle 19' type1 ast5 [253,244,162,9] fill:#5B415E t1  
+  20 'TextBox 20' type17 ast1 [419,242,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 22
+  21 'TextBox 21' type17 ast1 [63,264,189,16]   [Aptos/+mn-cs 9 b0 #363037] לדעת מה לעשות כשהמחזור מגיע
+  22 'Rounded Rectangle 22' type1 ast5 [253,267,162,9] fill:#F1EDF1 t1  
+  23 'Rounded Rectangle 23' type1 ast5 [253,267,155,9] fill:#5B415E t1  
+  24 'TextBox 24' type17 ast1 [419,264,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 21
+  25 'TextBox 25' type17 ast1 [63,287,189,16]   [Aptos/+mn-cs 9 b0 #363037] להסביר מה עומד לקרות
+  26 'Rounded Rectangle 26' type1 ast5 [253,289,162,9] fill:#F1EDF1 t1  
+  27 'Rounded Rectangle 27' type1 ast5 [253,289,147,9] fill:#5B415E t1  
+  28 'TextBox 28' type17 ast1 [419,287,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 20
+  29 'TextBox 29' type17 ast1 [63,309,189,16]   [Aptos/+mn-cs 9 b0 #363037] בחירת מוצרי ספיגה מתאימים
+  30 'Rounded Rectangle 30' type1 ast5 [253,311,162,9] fill:#F1EDF1 t1  
+  31 'Rounded Rectangle 31' type1 ast5 [253,311,110,9] fill:#5B415E t1  
+  32 'TextBox 32' type17 ast1 [419,309,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 15
+  33 'TextBox 33' type17 ast1 [63,331,189,16]   [Aptos/+mn-cs 9 b0 #363037] חשש מדליפות / מבוכה בבית הספר
+  34 'Rounded Rectangle 34' type1 ast5 [253,334,162,9] fill:#F1EDF1 t1  
+  35 'Rounded Rectangle 35' type1 ast5 [253,334,103,9] fill:#5B415E t1  
+  36 'TextBox 36' type17 ast1 [419,331,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 14
+  37 'Rounded Rectangle 37' type1 ast5 [488,207,423,155] fill:#FFFFFF t1 line:#E0D8E0 w0.7 
+  38 'TextBox 38' type17 ast1 [503,215,395,22]   [Aptos/+mn-cs 14 b-1 #5B415E] מה חשוב שיהיה בתוך הערכה?
+  39 'TextBox 39' type17 ast1 [504,242,180,16]   [Aptos/+mn-cs 9 b0 #363037] הסברים פשוטים לנערה
+  40 'Rounded Rectangle 40' type1 ast5 [690,244,166,9] fill:#F1EDF1 t1  
+  41 'Rounded Rectangle 41' type1 ast5 [690,244,166,9] fill:#5B415E t1  
+  42 'TextBox 42' type17 ast1 [860,242,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 22
+  43 'TextBox 43' type17 ast1 [504,264,180,16]   [Aptos/+mn-cs 9 b0 #363037] מוצרי ספיגה להתנסות
+  44 'Rounded Rectangle 44' type1 ast5 [690,267,166,9] fill:#F1EDF1 t1  
+  45 'Rounded Rectangle 45' type1 ast5 [690,267,135,9] fill:#5B415E t1  
+  46 'TextBox 46' type17 ast1 [860,264,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 18
+  47 'TextBox 47' type17 ast1 [504,287,180,16]   [Aptos/+mn-cs 9 b0 #363037] תחתוני מחזור
+  48 'Rounded Rectangle 48' type1 ast5 [690,289,166,9] fill:#F1EDF1 t1  
+  49 'Rounded Rectangle 49' type1 ast5 [690,289,105,9] fill:#5B415E t1  
+  50 'TextBox 50' type17 ast1 [860,287,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 14
+  51 'TextBox 51' type17 ast1 [504,309,180,16]   [Aptos/+mn-cs 9 b0 #363037] מדריך לאם
+  52 'Rounded Rectangle 52' type1 ast5 [690,311,166,9] fill:#F1EDF1 t1  
+  53 'Rounded Rectangle 53' type1 ast5 [690,311,53,9] fill:#5B415E t1  
+  54 'TextBox 54' type17 ast1 [860,309,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 7
+  55 'TextBox 55' type17 ast1 [504,331,180,16]   [Aptos/+mn-cs 9 b0 #363037] מוצרי חירום
+  56 'Rounded Rectangle 56' type1 ast5 [690,334,166,9] fill:#F1EDF1 t1  
+  57 'Rounded Rectangle 57' type1 ast5 [690,334,38,9] fill:#5B415E t1  
+  58 'TextBox 58' type17 ast1 [860,331,30,16]   [Aptos/+mn-cs 9 b-1 #5B415E] 5
+  59 'Rounded Rectangle 59' type1 ast5 [47,380,864,86] fill:#F7F3F7 t1 line:#E0D8E0 w0.7 
+  60 'TextBox 60' type17 ast1 [63,387,828,20]   [Aptos/+mn-cs 14 b-1 #5B415E] המשמעות העסקית עבור LILA
+  61 'TextBox 61' type17 ast1 [71,416,817,32]   [Aptos/+mn-cs 12 b-1 #363037] הצורך המרכזי הוא לא רק ציוד: הורים מחפשים דרך להכין את הילדה, להפחית ח
+  62 'TextBox 62' type17 ast1 [50,479,864,13]   [Aptos/+mn-cs 8 b0 #746B75] הערת מתודולוגיה: שאלון ראשוני ולא מדגם מייצג (N=28). אחוזי העניין חושב
+=== SLIDE 7 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Rounded Rectangle 7' type1 ast5 [178,57,537,55] fill:#F6DEE7 t1  
+  2 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  3 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  4 'TextBox 3' type17 ast1 [262,63,409,43]   [Aptos/+mn-cs 28 b-1 #4F3653]  לא רק ערכה למחוזר ראשון :Lila
+  5 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  6 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  7 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 04
+  8 'Rounded Rectangle 7' type1 ast5 [68,144,270,191] fill:#F6DEE7 t1  
+  9 'TextBox 8' type17 ast1 [83,169,241,40]   [Aptos/+mn-cs 23 b-1 #4F3653] מוצרים
+  10 'TextBox 9' type17 ast1 [90,234,227,50]   [Aptos/+mn-cs 17 b0 #483D4A] ערכות מחזור ראשון, תחבושות, תחתוני מחזור ומוצרים משלימים.
+  11 'Rounded Rectangle 10' type1 ast5 [367,144,270,191] fill:#E2D8F2 t1  
+  12 'TextBox 11' type17 ast1 [382,169,241,40]   [Aptos/+mn-cs 23 b-1 #4F3653] ידע
+  13 'TextBox 12' type17 ast1 [389,224,227,71]   [Aptos/+mn-cs 17 b0 #483D4A] תוכן ברור ומותאם גיל שמכין את הילדה למה שקורה ומה שעוד צפוי.
+  14 'Rounded Rectangle 13' type1 ast5 [666,144,270,191] fill:#F9EFF4 t1  
+  15 'TextBox 14' type17 ast1 [680,169,241,40]   [Aptos/+mn-cs 23 b-1 #4F3653] שיחה
+  16 'TextBox 15' type17 ast1 [688,234,227,50]   [Aptos/+mn-cs 17 b0 #483D4A] כלים שעוזרים להורים ולילדות לדבר בפתיחות ובנוחות.
+  17 'TextBox 16' type17 ast1 [86,392,785,34]   [Aptos/+mn-cs 21 b-1 #C989A5] חוויה אחת מחוברת במקום אוסף של מוצרים ומידע
+  18 'Rounded Rectangle 7' type1 ast5 [198,376,537,55] fill:#F6DEE7 t1  
+  19 'TextBox 22' type17 ast1 [276,380,409,43]   [Aptos/Arial 28 b-1 #4F3653] מוכנות – בטחון - קשר
+  20 'TextBox 24' type17 ast1 [338,446,313,29]   [Calibri/Arial 18 b0 #000000] מותג שמלווה את הנערה לאורך ההתבגרות
+=== SLIDE 8 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,40,814,50]   [Aptos/+mn-cs 28 b-1 #4F3653] החזון
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 05
+  7 'TextBox 7' type17 ast1 [97,142,763,86]   [Calibri/Arial 32 b0 #000000] לאפשר לכל ילדה להתחיל את המסע להתבגרות עם ידע, ביטחון ותחושת מסוגלות
+  8 'TextBox 8' type17 ast1 [144,265,670,60]   [Aptos/+mn-cs 21 b-2 #483D4A] Lila שואפת להיות כתובת אמינה ונעימה למשפחות, מההכנה למחזור הראשון ובהמ
+=== SLIDE 9 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,43,814,43]   [Aptos/+mn-cs 28 b-1 #4F3653] למי Lila  מיועדת?
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 06
+  7 'Rounded Rectangle 7' type1 ast5 [79,133,378,270] fill:#F6DEE7 t1  
+  8 'TextBox 8' type17 ast1 [101,157,335,38]   [Aptos/+mn-cs 24 b-1 #4F3653] הילדה - המשתמשת
+  9 'TextBox 9' type17 ast1 [104,212,324,105]   [Aptos/+mn-cs 16 b0 #483D4A] •  מתקרבת למחזור הראשון או בתחילת גיל ההתבגרות | •  רוצה להבין מה קורה
+  10 'Rounded Rectangle 10' type1 ast5 [500,133,378,270] fill:#E2D8F2 t1  
+  11 'TextBox 11' type17 ast1 [522,157,335,38]   [Aptos/+mn-cs 24 b-1 #4F3653] ההורה - הקונה
+  12 'TextBox 12' type17 ast1 [526,212,324,86]   [Aptos/+mn-cs 16 b0 #483D4A] •  רוצה להכין את הילדה מראש | •  מחפש/ת פתרון אמין, איכותי ורגיש | •  
+  13 'TextBox 13' type17 ast1 [86,423,785,51]   [/+mn-cs 17 b-2 #000000] המשתמשת והקונה אינן בהכרח אותה דמות Lila  נבנית עבור שתיה | הצלחה מסחר
+=== SLIDE 10 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,43,814,43]   [Aptos/+mn-cs 28 b-1 #4F3653] מוצרים ושירותים: נקודת התחלה שאפשר להרחיב
+  4 'Rounded Rectangle 4' type1 ast5 [809,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'Rounded Rectangle 7' type1 ast5 [56,217,270,74] fill:#F6DEE7 t1  
+  7 'TextBox 8' type17 ast1 [66,230,248,30]   [Aptos/+mn-cs 18 b-1 #4F3653] Lila Pads
+  8 'TextBox 9' type17 ast1 [70,253,241,32]   [Aptos/+mn-cs 15 b0 #483D4A] ערכה עם תחבושות
+  9 'Rounded Rectangle 10' type1 ast5 [627,217,270,75] fill:#E2D8F2 t1  
+  10 'TextBox 11' type17 ast1 [637,230,248,30]   [Aptos/+mn-cs 18 b-1 #4F3653] Lila Underwear
+  11 'TextBox 12' type17 ast1 [639,255,241,32]   [Aptos/+mn-cs 15 b0 #483D4A] תחתוני מחזור
+  12 'Rounded Rectangle 13' type1 ast5 [56,107,841,104] fill:#F9EFF4 t1  
+  13 'TextBox 14' type17 ast1 [241,129,487,47]   [Aptos/+mn-cs 32 b-1 #4F3653] Lila Starter  - ערכת מחזור ראשון
+  14 'TextBox 15' type17 ast1 [369,111,241,27]   [Aptos/Arial 15 b0 #483D4A] מוצר הדגל
+  15 'Rounded Rectangle 16' type1 ast5 [56,304,270,74] fill:#F6DEE7 t1  
+  16 'TextBox 17' type17 ast1 [66,317,248,30]   [Aptos/+mn-cs 18 b-1 #4F3653] Refill
+  17 'TextBox 18' type17 ast1 [66,338,241,32]   [Aptos/+mn-cs 15 b0 #483D4A] מילוי וחידוש מוצרים
+  18 'Rounded Rectangle 19' type1 ast5 [336,219,270,73] fill:#E2D8F2 t1  
+  19 'TextBox 20' type17 ast1 [347,223,248,30]   [Aptos/+mn-cs 18 b-1 #4F3653] First Bra
+  20 'TextBox 21' type17 ast1 [351,251,241,32]   [Aptos/+mn-cs 15 b0 #483D4A] מוצר משלים לשלב הבא
+  21 'Rounded Rectangle 22' type1 ast5 [338,299,270,79] fill:#F9EFF4 t1  
+  22 'TextBox 23' type17 ast1 [348,312,248,30]   [Aptos/+mn-cs 18 b-1 #4F3653] Lila workshop
+  23 'TextBox 24' type17 ast1 [351,340,241,27]   [Aptos/Arial 15 b0 #483D4A] סדנאות והדרכות
+  24 'TextBox 25' type17 ast1 [39,450,792,29]   [Aptos/+mn-cs 16 b0 #827385] הרחבת המוצרים תיעשה בהתאם לצרכים ולשלבים ולא כתחליף למסע האישי.
+  25 'TextBox 27' type17 ast1 [275,171,430,31]   [Aptos/Arial 18 b0 #483D4A] שילוב של מוצרים, מידע ותמיכה לקראת המחזור הראשון 
+  26 'Rounded Rectangle 22' type1 ast5 [627,300,270,79] fill:#F9EFF4 t1  
+  27 'TextBox 33' type17 ast1 [637,313,248,30]   [Aptos/+mn-cs 18 b-1 #4F3653] Lila Digital
+  28 'TextBox 35' type17 ast1 [641,340,241,27]   [Aptos/Arial 15 b0 #483D4A] ליווי דיגיטלי לילדה ולהורה
+=== SLIDE 11 layout:Blank followMaster:-1 bg:#FFFFFF
+  1 'TextBox 1' type17 ast1 [47,21,864,35]   [Aptos/+mn-cs 28 b-1 #000000] Lila Starter
+  2 'TextBox 2' type17 ast1 [49,62,864,16]   [Aptos/+mn-cs 12 b0 #776D77] ערכת הכנה למחזור הראשון, כל מה שצריך, במקום אחד
+  3 'Rounded Rectangle 3' type1 ast5 [256,92,450,392] fill:#EFE7F2 t1 line:#E4DCE4 w0.8 
+  4 'TextBox 4' type17 ast1 [277,101,407,20]   [Aptos/+mn-cs 15 b-1 #5B415E] ערכת LILA המלאה
+  5 'Picture 5' type13 ast1 [272,142,418,299]   
+  6 'Rounded Rectangle 6' type1 ast5 [45,104,184,162] fill:#FFFFFF t1 line:#E4DCE4 w0.8 
+  7 'Picture 7' type13 ast1 [74,112,124,107]   
+  8 'TextBox 8' type17 ast1 [52,221,169,30]   [Aptos/+mn-cs 11 b-1 #5B415E] תיק נשיאה מעוצב
+  9 'Rounded Rectangle 9' type1 ast5 [45,289,184,162] fill:#FFFFFF t1 line:#E4DCE4 w0.8 
+  10 'Picture 10' type13 ast1 [79,297,115,107]   
+  11 'TextBox 11' type17 ast1 [52,406,169,30]   [Aptos/+mn-cs 11 b-1 #5B415E] תחבושות היגייניות
+  12 'Rounded Rectangle 12' type1 ast5 [732,104,184,162] fill:#FFFFFF t1 line:#E4DCE4 w0.8 
+  13 'Picture 13' type13 ast1 [769,112,108,107]   
+  14 'TextBox 14' type17 ast1 [739,221,169,30]   [Aptos/+mn-cs 11 b-1 #5B415E] נרתיק אישי
+  15 'Rounded Rectangle 15' type1 ast5 [732,289,184,162] fill:#FFFFFF t1 line:#E4DCE4 w0.8 
+  16 'Picture 16' type13 ast1 [757,297,133,107]   
+  17 'TextBox 17' type17 ast1 [739,406,169,30]   [Aptos/+mn-cs 11 b-1 #5B415E] תחתוני מחזור
+  18 'Rounded Rectangle 18' type1 ast5 [158,495,644,29] fill:#F7EBE8 t1 line:#E4DCE4 w0.8 
+  19 'TextBox 19' type17 ast1 [169,502,623,14]   [Aptos/+mn-cs 10 b-1 #5B415E] מענה מעשי, נעים ומותאם לגיל לצד תחושת מוכנות וביטחון
+=== SLIDE 12 layout:Blank followMaster:-1 bg:#FFFFFF
+  1 'TextBox 1' type17 ast1 [47,23,864,34]   [Aptos/+mn-cs 26 b-1 #5B415E] Lila Workshop
+  2 'TextBox 2' type17 ast1 [49,65,864,17]   [Aptos/+mn-cs 12 b0 #746B75] סדנה חווייתית לאימהות ולבנות לקראת גיל ההתבגרות והמחזור הראשון
+  3 'Rounded Rectangle 3' type1 ast5 [50,97,860,56] fill:#EBE2EF t1 line:#E0D8E0 w0.7 
+  4 'TextBox 4' type17 ast1 [68,113,824,21]   [Aptos/+mn-cs 15 b-1 #5B415E] להכיר את הגוף ואת המחזור, להבין מה צפוי, להתנסות בכלים מעשיים — ולצאת 
+  5 'TextBox 5' type17 ast1 [54,170,850,21]   [Aptos/+mn-cs 15 b-1 #5B415E] מה קורה בסדנה?  |  90 דקות
+  6 'Rounded Rectangle 6' type1 ast5 [52,203,157,144] fill:#F6E7E4 t1 line:#E0D8E0 w0.7 
+  7 'TextBox 7' type17 ast1 [59,210,143,19]   [Aptos/+mn-cs 11 b-1 #5B415E] 15 דק׳
+  8 'TextBox 8' type17 ast1 [59,241,143,19]   [Aptos/+mn-cs 13 b-1 #5B415E] השינויים בגיל ההתבגרות
+  9 'TextBox 9' type17 ast1 [61,290,138,25]   [Aptos/+mn-cs 9 b0 #363037] מה משתנה בגוף, ומה עשוי לקרות בתקופה הקרובה.
+  10 'Rounded Rectangle 10' type1 ast5 [226,203,157,144] fill:#EBE2EF t1 line:#E0D8E0 w0.7 
+  11 'TextBox 11' type17 ast1 [233,210,143,19]   [Aptos/+mn-cs 11 b-1 #5B415E] 20 דק׳
+  12 'TextBox 12' type17 ast1 [233,241,143,19]   [Aptos/+mn-cs 13 b-1 #5B415E] מכירות את המחזור
+  13 'TextBox 13' type17 ast1 [235,284,138,36]   [Aptos/+mn-cs 9 b0 #363037] הסבר פשוט על כל שלבי המחזור, בעזרת המחשה חזותית ופעילות אינטראקטיבית.
+  14 'Rounded Rectangle 14' type1 ast5 [400,203,157,144] fill:#E7EEE6 t1 line:#E0D8E0 w0.7 
+  15 'TextBox 15' type17 ast1 [408,210,143,19]   [Aptos/+mn-cs 11 b-1 #5B415E] 25 דק׳
+  16 'TextBox 16' type17 ast1 [408,241,143,19]   [Aptos/+mn-cs 13 b-1 #5B415E] מתכוננות באופן מעשי
+  17 'TextBox 17' type17 ast1 [410,290,138,25]   [Aptos/+mn-cs 9 b0 #363037] היכרות עם מוצרי היגיינה, הדגמה והתנסות, וערכת חירום.
+  18 'Rounded Rectangle 18' type1 ast5 [575,203,157,144] fill:#F7F2EB t1 line:#E0D8E0 w0.7 
+  19 'TextBox 19' type17 ast1 [582,210,143,19]   [Aptos/+mn-cs 11 b-1 #5B415E] 15 דק׳
+  20 'TextBox 20' type17 ast1 [582,233,143,35]   [Aptos/+mn-cs 13 b-1 #5B415E] שאלות, חששות ומה שביניהם
+  21 'TextBox 21' type17 ast1 [584,290,138,25]   [Aptos/+mn-cs 9 b0 #363037] מרחב בטוח לשאלות, לשיתוף ולהפחתת מבוכה.
+  22 'Rounded Rectangle 22' type1 ast5 [749,203,157,144] fill:#F6E7E4 t1 line:#E0D8E0 w0.7 
+  23 'TextBox 23' type17 ast1 [756,210,143,19]   [Aptos/+mn-cs 11 b-1 #5B415E] 15 דק׳
+  24 'TextBox 24' type17 ast1 [756,241,143,19]   [Aptos/+mn-cs 13 b-1 #5B415E] יוצאות מוכנות
+  25 'TextBox 25' type17 ast1 [758,290,138,25]   [Aptos/+mn-cs 9 b0 #363037] כרטיס אישי ותכנון משותף של האם והבת לקראת הפעם הראשונה.
+  26 'Rounded Rectangle 26' type1 ast5 [52,364,529,83] fill:#FFFFFF t1 line:#E0D8E0 w0.7 
+  27 'TextBox 27' type17 ast1 [66,370,500,17]   [Aptos/+mn-cs 12 b-1 #5B415E] איך נמחיש את המחזור?
+  28 'TextBox 28' type17 ast1 [68,399,497,27]   [Aptos/+mn-cs 10 b0 #363037] סרטון אנימציה קצר (2–3 דקות) • איור גדול ומדויק של מערכת הרבייה • לוח 
+  29 'Rounded Rectangle 29' type1 ast5 [599,364,312,83] fill:#E7EEE6 t1 line:#E0D8E0 w0.7 
+  30 'TextBox 30' type17 ast1 [613,371,283,17]   [Aptos/+mn-cs 12 b-1 #5B415E] למי ובאיזה פורמט?
+  31 'TextBox 31' type17 ast1 [616,400,279,27]   [Aptos/+mn-cs 10 b-1 #363037] ילדות בגילאי 9–11 עם הורה מלווה6–10 זוגות אם–בת | סדנה אינטימית וחווי
+  32 'TextBox 32' type17 ast1 [54,466,857,16]   [Aptos/+mn-cs 11 b-1 #5B415E] המשתתפות יוצאות עם:
+  33 'TextBox 33' type17 ast1 [54,491,857,15]   [Aptos/+mn-cs 10 b0 #363037] ידע על הגוף והמחזור  •  היכרות עם מוצרי היגיינה  •  כלים להתמודדות  • 
+=== SLIDE 13 layout:Blank followMaster:-1 bg:#FFFFFF
+  1 'TextBox 1' type17 ast1 [47,25,864,40]   [Aptos/+mn-cs 26 b-1 #593D5B] גודל השוק והזדמנות הצמיחה של LILA
+  2 'TextBox 2' type17 ast1 [47,68,864,22]   [Aptos/+mn-cs 12 b0 #6F6770] ממשפך אוכלוסייה רחב ליעד מכירות שניתן לבחון ולמדוד
+  3 'TextBox 3' type17 ast1 [508,102,396,25]   [Aptos/+mn-cs 16 b-1 #593D5B] משפך גודל השוק
+  4 'Rounded Rectangle 4' type1 ast5 [518,133,374,65] fill:#E2D7E8 t1  
+  5 'TextBox 5' type17 ast1 [529,141,353,27]   [Aptos/+mn-cs 21 b-1 #593D5B] TAM  |412,400
+  6 'TextBox 6' type17 ast1 [529,170,353,15]   [Aptos/+mn-cs 11 b0 #302B31] כל הילדות בישראל בגילאי  10–14
+  7 'Rounded Rectangle 7' type1 ast5 [551,212,310,76] fill:#EFE9F2 t1  
+  8 'TextBox 8' type17 ast1 [560,220,292,22]   [Aptos/+mn-cs 17 b-1 #593D5B] SAM  |182,280
+  9 'TextBox 9' type17 ast1 [564,246,284,33]   [Aptos/+mn-cs 10 b0 #302B31] ילדות חילוניות + 20% מהילדות הדתיות־לאומיותללא החברה הערבית והחרדית
+  10 'Rounded Rectangle 10' type1 ast5 [583,302,245,72] fill:#F2E0DC t1  
+  11 'TextBox 11' type17 ast1 [590,310,230,22]   [Aptos/+mn-cs 17 b-1 #593D5B] SOM  |   בשנה6,000
+  12 'TextBox 12' type17 ast1 [590,336,230,31]   [Aptos/+mn-cs 11 b0 #302B31] תרחיש בסיס: 200 ערכות בחודש2,400 בשנה השלישית
+  13 'TextBox 13' type17 ast1 [515,380,389,50]   [Aptos/+mn-cs 8 b0 #6F6770] SAM יחושב לאחר פילוח האוכלוסייה היהודית לפי גיל ומידת דתיות. 43% חילונ
+  14 'TextBox 14' type17 ast1 [54,102,410,25]   [Aptos/+mn-cs 16 b-1 #593D5B] הנחות ותרחישי מכירה
+  15 'Rounded Rectangle 15' type1 ast5 [54,133,407,68] fill:#FFFFFF t1  
+  16 'TextBox 16' type17 ast1 [68,140,378,16]   [Aptos/+mn-cs 11 b-1 #6F6770] נקודת ייחוס שוק
+  17 'TextBox 17' type17 ast1 [68,158,378,24]   [Aptos/+mn-cs 19 b-1 #593D5B] עלמה: 500 קופסאות בחודש
+  18 'TextBox 18' type17 ast1 [68,184,378,12]   [Aptos/+mn-cs 8 b0 #6F6770] נתון שנמסר בשיחה; טרם אומת עצמאית
+  19 'Rounded Rectangle 19' type1 ast5 [54,222,124,101] fill:#E2D7E8 t1  
+  20 'TextBox 20' type17 ast1 [59,228,114,16]   [Aptos/+mn-cs 11 b-1 #593D5B] שמרני
+  21 'TextBox 21' type17 ast1 [59,248,114,25]   [Aptos/+mn-cs 22 b-1 #593D5B] 100
+  22 'TextBox 22' type17 ast1 [59,275,114,13]   [Aptos/+mn-cs 8 b0 #302B31] ערכות בחודש
+  23 'TextBox 23' type17 ast1 [59,294,114,14]   [Aptos/+mn-cs 9 b-1 #302B31] 1,200 בשנה
+  24 'Rounded Rectangle 24' type1 ast5 [189,222,124,101] fill:#F2E0DC t1  
+  25 'TextBox 25' type17 ast1 [194,228,114,16]   [Aptos/+mn-cs 11 b-1 #593D5B] בסיס
+  26 'TextBox 26' type17 ast1 [194,248,114,25]   [Aptos/+mn-cs 22 b-1 #593D5B] 200
+  27 'TextBox 27' type17 ast1 [194,275,114,13]   [Aptos/+mn-cs 8 b0 #302B31] ערכות בחודש
+  28 'TextBox 28' type17 ast1 [194,294,114,14]   [Aptos/+mn-cs 9 b-1 #302B31] 2,400 בשנה
+  29 'Rounded Rectangle 29' type1 ast5 [325,222,124,101] fill:#DEEAE0 t1  
+  30 'TextBox 30' type17 ast1 [330,228,114,16]   [Aptos/+mn-cs 11 b-1 #593D5B] אופטימי
+  31 'TextBox 31' type17 ast1 [330,248,114,25]   [Aptos/+mn-cs 22 b-1 #593D5B] 400
+  32 'TextBox 32' type17 ast1 [330,275,114,13]   [Aptos/+mn-cs 8 b0 #302B31] ערכות בחודש
+  33 'TextBox 33' type17 ast1 [330,294,114,14]   [Aptos/+mn-cs 9 b-1 #302B31] 4,800 בשנה
+  34 'TextBox 34' type17 ast1 [61,344,392,22]   [Aptos/+mn-cs 13 b-1 #593D5B] ערוצי המכירה המתוכננים
+  35 'Rounded Rectangle 35' type1 ast5 [61,373,126,32] fill:#FFFFFF t1  
+  36 'TextBox 36' type17 ast1 [64,379,120,14]   [Aptos/+mn-cs 9 b-1 #302B31] אתר ומכירה ישירה
+  37 'Rounded Rectangle 37' type1 ast5 [202,373,79,32] fill:#FFFFFF t1  
+  38 'TextBox 38' type17 ast1 [204,379,73,14]   [Aptos/+mn-cs 9 b-1 #302B31] סדנאות
+  39 'Rounded Rectangle 39' type1 ast5 [295,373,126,32] fill:#FFFFFF t1  
+  40 'TextBox 40' type17 ast1 [298,379,120,14]   [Aptos/+mn-cs 9 b-1 #302B31] שיתופי פעולה
+  41 'Rounded Rectangle 41' type1 ast5 [54,436,839,52] fill:#593D5B t1  
+  42 'TextBox 42' type17 ast1 [68,446,810,25]   [Aptos/+mn-cs 12 b-1 #FFFFFF] יעד הבסיס המוצע: 200 ערכות בחודש בשנה השלישית — בהלימה לנקודת הייחוס ש
+  43 'TextBox 43' type17 ast1 [54,500,835,16]   [Aptos/+mn-cs 7 b0 #6F6770] TAM הוא אומדן שהוצג בדיון. תרחישי המכירות הם הנחות תכנון, לא תחזית מוכ
+=== SLIDE 14 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,43,814,43]   [Aptos/+mn-cs 28 b-1 #4F3653] מפת התחרות והבידול של Lila
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 12
+  7 'Table 7' type19 ast-2 [36,120,913,321] fill:#000000 t1  
+    TABLE rows 7 cols 14
+=== SLIDE 15 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,43,814,43]   [Aptos/+mn-cs 28 b-1 #4F3653] מפת התחרות והבידול של Lila
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 12
+  7 'Straight Arrow Connector 9' type1 ast-2 [167,123,0,328]  line:#4F81BD w2 
+  8 'Straight Arrow Connector 10' type1 ast-2 [167,451,410,0]  line:#4F81BD w2 
+  9 'TextBox 13' type17 ast1 [99,85,100,29]   [Calibri/Arial 18 b0 #000000] מגוון מוצרים
+  10 'TextBox 15' type17 ast1 [592,437,136,29]   [Calibri/Arial 18 b0 #000000] הנגשת ידע ומידע
+  11 'Picture 19' type13 ast1 [514,132,77,46]   
+  12 'Picture 22' type13 ast1 [347,276,64,64]   
+  13 'Picture 24' type13 ast1 [284,161,95,30]   
+  14 'Picture 26' type13 ast1 [420,220,100,18]   
+  15 'Picture 27' type13 ast1 [186,134,75,47]   
+  16 'Picture 28' type13 ast1 [442,336,73,73]   
+=== SLIDE 16 layout:Blank followMaster:-1 bg:#FFFFFF
+  1 'TextBox 1' type17 ast1 [47,21,864,34]   [Aptos/+mn-cs 26 b-1 #5B415E] שני מסעות, חוויה אחת
+  2 'TextBox 2' type17 ast1 [49,61,864,17]   [Aptos/+mn-cs 12 b0 #776D77] ההורה  מחפש דרך להכין — הילדה יוצאת למסע של היכרות, מוכנות וביטחון
+  3 'TextBox 3' type17 ast1 [184,94,126,23]   [Aptos/+mn-cs 10 b-1 #5B415E] זיהוי הצורך
+  4 'TextBox 4' type17 ast1 [328,94,126,23]   [Aptos/+mn-cs 10 b-1 #5B415E] חיפוש והיכרות
+  5 'TextBox 5' type17 ast1 [472,94,126,23]   [Aptos/+mn-cs 10 b-1 #5B415E] בחירה ורכישה
+  6 'TextBox 6' type17 ast1 [616,94,126,23]   [Aptos/+mn-cs 10 b-1 #5B415E] חוויה והתנסות
+  7 'TextBox 7' type17 ast1 [760,94,126,23]   [Aptos/+mn-cs 10 b-1 #5B415E] המשכיות
+  8 'Rounded Rectangle 8' type1 ast5 [40,128,119,128] fill:#EFE7F2 t1 line:#E1D9E2 w0.7 
+  9 'TextBox 9' type17 ast1 [49,140,100,27]   [Aptos/+mn-cs 18 b-1 #5B415E] האמא
+  10 'TextBox 10' type17 ast1 [49,184,100,39]   [Aptos/+mn-cs 10 b0 #363037] הרוכשתמחפשת פתרוןורוצה ללוות
+  11 'Rounded Rectangle 11' type1 ast5 [40,281,119,128] fill:#E5EFF7 t1 line:#E1D9E2 w0.7 
+  12 'TextBox 12' type17 ast1 [49,294,100,27]   [Aptos/+mn-cs 18 b-1 #376382] הילדה
+  13 'TextBox 13' type17 ast1 [49,338,100,39]   [Aptos/+mn-cs 10 b0 #363037] המשתמשתמחפשת להביןולהרגיש מוכנה
+  14 'Rounded Rectangle 14' type1 ast5 [184,128,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  15 'TextBox 15' type17 ast1 [189,145,114,30]   [Aptos/+mn-cs 11 b-1 #5B415E] מזהה שההתבגרותמתקרבת
+  16 'TextBox 16' type17 ast1 [190,203,113,25]   [Aptos/+mn-cs 9 b0 #363037] רוצה להכין את הבתבזמן ובדרך הנכונה
+  17 'TextBox 17' type17 ast1 [311,177,13,26]   [Aptos/+mn-cs 18 b-1 #776D77] ›
+  18 'Rounded Rectangle 18' type1 ast5 [328,128,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  19 'TextBox 19' type17 ast1 [333,145,114,30]   [Aptos/+mn-cs 11 b-1 #5B415E] מחפשת מידע,מוצרים והכוונה
+  20 'TextBox 20' type17 ast1 [334,187,113,56]   [Aptos/+mn-cs 9 b0 #363037] בודקת מה באמתנחוץ ואיך לדבר
+  21 'TextBox 21' type17 ast1 [455,177,13,26]   [Aptos/+mn-cs 18 b-1 #776D77] ›
+  22 'Rounded Rectangle 22' type1 ast5 [472,128,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  23 'TextBox 23' type17 ast1 [477,145,114,30]   [Aptos/+mn-cs 11 b-1 #5B415E] בוחרת ערכהאו סדנה
+  24 'TextBox 24' type17 ast1 [478,203,113,25]   [Aptos/+mn-cs 9 b0 #363037] מחפשת פתרוןשימושי ומשמעותי
+  25 'TextBox 25' type17 ast1 [599,177,13,26]   [Aptos/+mn-cs 18 b-1 #776D77] ›
+  26 'Rounded Rectangle 26' type1 ast5 [616,128,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  27 'TextBox 27' type17 ast1 [621,145,114,30]   [Aptos/+mn-cs 11 b-1 #5B415E] פותחת את הערכהעם הבת
+  28 'TextBox 28' type17 ast1 [622,203,113,25]   [Aptos/+mn-cs 9 b0 #363037] נעזרת בתוכן כדיליצור שיחה משותפת
+  29 'TextBox 29' type17 ast1 [743,177,13,26]   [Aptos/+mn-cs 18 b-1 #776D77] ›
+  30 'Rounded Rectangle 30' type1 ast5 [760,128,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  31 'TextBox 31' type17 ast1 [765,145,114,30]   [Aptos/+mn-cs 11 b-1 #5B415E] ממשיכה ללוותאת הבת
+  32 'TextBox 32' type17 ast1 [766,203,113,25]   [Aptos/+mn-cs 9 b0 #363037] מקבלת תוכן המשךוממליצה לאחרות
+  33 'Rounded Rectangle 33' type1 ast5 [184,281,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  34 'TextBox 34' type17 ast1 [189,298,114,30]   [Aptos/+mn-cs 11 b-1 #376382] מבחינה בשינוייםושואלת שאלות
+  35 'TextBox 35' type17 ast1 [190,356,113,25]   [Aptos/+mn-cs 9 b0 #363037] סקרנות לצדחוסר ודאות
+  36 'TextBox 36' type17 ast1 [311,330,13,26]   [Aptos/+mn-cs 18 b-1 #776D77] ›
+  37 'Rounded Rectangle 37' type1 ast5 [328,281,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  38 'TextBox 38' type17 ast1 [333,298,114,30]   [Aptos/+mn-cs 11 b-1 #376382] לומדת על הגוףועל המחזור
+  39 'TextBox 39' type17 ast1 [334,356,113,25]   [Aptos/+mn-cs 9 b0 #363037] מקבלת מידע ברורומותאם לגיל
+  40 'TextBox 40' type17 ast1 [455,330,13,26]   [Aptos/+mn-cs 18 b-1 #776D77] ›
+  41 'Rounded Rectangle 41' type1 ast5 [472,281,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  42 'TextBox 42' type17 ast1 [477,298,114,30]   [Aptos/+mn-cs 11 b-1 #376382] מקבלת את הערכהאו מגיעה לסדנה
+  43 'TextBox 43' type17 ast1 [478,356,113,25]   [Aptos/+mn-cs 9 b0 #363037] מרגישה שרואיםאותה ומתחשבים בה
+  44 'TextBox 44' type17 ast1 [599,330,13,26]   [Aptos/+mn-cs 18 b-1 #776D77] ›
+  45 'Rounded Rectangle 45' type1 ast5 [616,281,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  46 'TextBox 46' type17 ast1 [621,298,114,30]   [Aptos/+mn-cs 11 b-1 #376382] מכירה מוצריםומתנסה בשימוש
+  47 'TextBox 47' type17 ast1 [622,356,113,25]   [Aptos/+mn-cs 9 b0 #363037] מבינה מה לעשותואיך להיערך
+  48 'TextBox 48' type17 ast1 [743,330,13,26]   [Aptos/+mn-cs 18 b-1 #776D77] ›
+  49 'Rounded Rectangle 49' type1 ast5 [760,281,126,128] fill:#FFFFFF t1 line:#E1D9E2 w0.7 
+  50 'TextBox 50' type17 ast1 [765,298,114,30]   [Aptos/+mn-cs 11 b-1 #376382] מתמודדת עםהמחזור הראשון
+  51 'TextBox 51' type17 ast1 [766,356,113,25]   [Aptos/+mn-cs 9 b0 #363037] צוברת ביטחוןועצמאות בהדרגה
+  52 'Rounded Rectangle 52' type1 ast5 [184,427,702,45] fill:#F7EBE8 t1 line:#E1D9E2 w0.7 
+  53 'TextBox 53' type17 ast1 [198,440,673,16]   [Aptos/+mn-cs 11 b-1 #5B415E] תוכן ומדריכים  •  אתר  •  ערכת המוצרים  •  סדנה  •  תוכן המשך
+  54 'TextBox 54' type17 ast1 [52,489,857,19]   [Aptos/+mn-cs 13 b-1 #5B415E] הערך: ההורה מקבל כלים ללוות — הילדה מקבלת ידע, הכנה ותחושת ביטחון.
+=== SLIDE 17 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,43,814,43]   [Aptos/Arial 28 b-1 #4F3653] בדיקת הצורך וההיתכנות
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 14
+  7 'Rounded Rectangle 7' type1 ast5 [79,126,371,216] fill:#F6DEE7 t1  
+  8 'TextBox 8' type17 ast1 [94,138,342,33]   [Aptos/Arial 20 b-1 #4F3653] מה יש עוד לבדוק
+  9 'TextBox 9' type17 ast1 [101,175,328,164]   [Aptos/Arial 16 b-2 #483D4A] ביקוש באמצעות קמפיין לידים |  | נכונות לשלם ומחירים |  | שותפויות וערו
+  10 'Rounded Rectangle 10' type1 ast5 [493,126,371,216] fill:#E2D8F2 t1  
+  11 'TextBox 11' type17 ast1 [508,138,342,33]   [Aptos/Arial 20 b-1 #4F3653] מה נעשה עד עכשיו
+  12 'TextBox 12' type17 ast1 [524,174,328,144]   [Aptos/Arial 16 b-2 #483D4A] נבנה אתר עם נוכחות דיגיטלית ראשונית |  | נבדקו דוגמאות תחבושות ותחתוני
+  13 'Rounded Rectangle 13' type1 ast5 [79,410,785,56] fill:#F6DEE7 t1  
+  14 'TextBox 14' type17 ast1 [322,417,342,33]   [Aptos/Arial 20 b-1 #4F3653] השלב הבא – קמפיין לידים
+=== SLIDE 18 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,40,814,50]   [Aptos/+mn-cs 28 b-1 #4F3653] חדירה לשוק ושיווק
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 14
+  7 'Rounded Rectangle 7' type1 ast5 [79,188,371,112] fill:#F6DEE7 t1  
+  8 'TextBox 8' type17 ast1 [94,200,342,33]   [Aptos/+mn-cs 20 b-1 #4F3653] תוכן דיגיטלי
+  9 'TextBox 9' type17 ast1 [101,240,328,40]   [Aptos/+mn-cs 16 b0 #483D4A] הסברים רגישים ומעשיים להורים ולילדות
+  10 'Rounded Rectangle 10' type1 ast5 [493,188,371,112] fill:#E2D8F2 t1  
+  11 'TextBox 11' type17 ast1 [508,202,342,29]   [Aptos/+mn-cs 20 b-1 #4F3653] קהילה
+  12 'TextBox 12' type17 ast1 [515,240,328,40]   [Aptos/+mn-cs 16 b0 #483D4A] שיח פתוח עם הורים ואנשי מקצוע
+  13 'Rounded Rectangle 13' type1 ast5 [79,325,371,112] fill:#F6DEE7 t1  
+  14 'TextBox 14' type17 ast1 [94,337,342,33]   [Aptos/Arial 20 b-1 #4F3653] סדנאות להורים וילדות
+  15 'TextBox 15' type17 ast1 [101,382,328,28]   [Aptos/+mn-cs 16 b0 #483D4A] כערוץ רכישה נוסף
+  16 'Rounded Rectangle 16' type1 ast5 [493,325,371,112] fill:#E2D8F2 t1  
+  17 'TextBox 17' type17 ast1 [508,339,342,29]   [Aptos/+mn-cs 20 b-1 #4F3653] שותפויות
+  18 'TextBox 18' type17 ast1 [515,376,328,40]   [Aptos/+mn-cs 16 b0 #483D4A] אפשרויות עתידיות עם גורמי חינוך ובריאות
+  19 'TextBox 19' type17 ast1 [86,447,785,27]   [Aptos/+mn-cs 15 b0 #827385] הערוצים והתקציבים יוגדרו לאחר בחינת קהלי היעד והניסויים הראשונים.
+  20 'Rounded Rectangle 7' type1 ast5 [101,88,731,72] fill:#F6DEE7 t1  
+  21 'TextBox 23' type17 ast1 [309,98,342,33]   [Aptos/Arial 20 b-1 #4F3653] שלב ראשון – קמפיין לידים
+  22 'TextBox 25' type17 ast1 [315,127,328,28]   [Aptos/Arial 16 b0 #483D4A] בדיקת ביקוש ועלות גיוס ליד
+=== SLIDE 19 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,43,814,43]   [Aptos/+mn-cs 28 b-1 #4F3653] מפת דרכים: מהרעיון לצמיחה
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 15
+  7 'TextBox 8' type17 ast1 [630,162,15,29]   
+  8 'מלבן 11' type1 ast1 [302,156,537,29]   [Calibri/+mn-cs 18 b0 #000000] ראיונות, בדיקת הצורך, קונספטים, נכונות לתשלום.-Discovery & Validatio
+  9 'TextBox 12' type17 ast1 [272,204,613,29]   [Calibri/+mn-cs 18 b0 #000000] בחירת מוצר ראשון, עלויות מלאות, רגולציה, ספקים ולוגיסטיקה-Product & Ec
+  10 'TextBox 13' type17 ast1 [270,261,620,29]   [Calibri/+mn-cs 18 b0 #000000] MVP & Micro Launch -מכירות ראשונות, בדיקת חוויית משתמש, רווחיות ושביעו
+  11 'TextBox 14' type17 ast1 [246,310,670,29]   [Calibri/+mn-cs 18 b0 #000000] ניסוי שותף הפצה או שיווק אחד, בדיקת רכית לקוח ורוחיות הערוץ-  Distribu
+  12 'TextBox 15' type17 ast1 [773,360,125,29]   [Calibri/+mn-cs 18 b0 #000000] -Scale Decision
+=== SLIDE 20 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,43,814,43]   [Aptos/Arial 28 b-1 #4F3653] מפת דרכים
+  4 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  5 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  6 'TextBox 6' type17 ast1 [875,508,40,18]   [Aptos/+mn-cs 9 b0 #827385] 14
+  7 'Rounded Rectangle 7' type1 ast5 [136,109,288,133] fill:#F6DEE7 t1  
+  8 'TextBox 8' type17 ast1 [150,115,266,33]   [Aptos/Arial 20 b-1 #4F3653] הכנה להשקה
+  9 'TextBox 9' type17 ast1 [157,174,255,67]   [Aptos/Arial 16 b0 #483D4A] גיבוש המוצר, ספקים, תמחור שילוח ובדיקות איכות | 
+  10 'Rounded Rectangle 10' type1 ast5 [476,109,288,133] fill:#E2D8F2 t1  
+  11 'TextBox 11' type17 ast1 [490,115,266,33]   [Aptos/Arial 20 b-1 #4F3653] בדיקת ביקוש
+  12 'TextBox 12' type17 ast1 [490,155,255,47]   [Aptos/Arial 16 b0 #483D4A] בדיקת התעניינות באמצעות קמפיין לידים
+  13 'Rounded Rectangle 7' type1 ast5 [136,288,288,133] fill:#F6DEE7 t1  
+  14 'TextBox 18' type17 ast1 [150,294,266,33]   [Aptos/Arial 20 b-1 #4F3653] השקה מצומצמת
+  15 'TextBox 20' type17 ast1 [157,354,255,67]   [Aptos/Arial 16 b0 #483D4A] מכירות ראשונות וקבלת משוב מהלקוחות | 
+  16 'Rounded Rectangle 10' type1 ast5 [476,288,288,133] fill:#E2D8F2 t1  
+  17 'TextBox 24' type17 ast1 [490,295,266,33]   [Aptos/Arial 20 b-1 #4F3653] צמיחה מדורגת
+  18 'TextBox 26' type17 ast1 [490,335,255,47]   [Aptos/Arial 16 b0 #483D4A] הרחבת ערוצי שיווק, שותפויות ומוצרים משלימים ונוספים 
+  19 'Right Arrow 27' type1 ast33 [430,174,40,16] fill:#3F80CD t3 line:#4A7EBB w0.75 
+  20 'Right Arrow 29' type1 ast33 [260,258,40,16] fill:#3F80CD t3 line:#4A7EBB w0.75 
+  21 'Right Arrow 31' type1 ast33 [430,341,40,16] fill:#3F80CD t3 line:#4A7EBB w0.75 
+=== SLIDE 21 layout:Two Content followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  4 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  5 'Title 11' type14 ast138 [274,39,648,44]   [Aptos/Arial 28 b-1 #000000] מודל עסקי ותחזית השקעה ראשונית
+  6 'Table 6' type19 ast-2 [157,118,648,382] fill:#000000 t1  
+    TABLE rows 8 cols 3
+=== SLIDE 22 layout:Two Content followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  4 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  5 'Title 11' type14 ast138 [274,39,648,44]   [Aptos/Arial 28 b-1 #000000] מודל עסקי ראשני ותחזית הכנסות
+  6 'Table 14' type19 ast-2 [171,154,648,166] fill:#000000 t1  
+    TABLE rows 5 cols 3
+=== SLIDE 23 layout:Two Content followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [810,-61,223,223] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-58,418,158,158] fill:#E2D8F2 t1  
+  3 'Rounded Rectangle 4' type1 ast5 [850,99,40,5] fill:#C989A5 t1  
+  4 'TextBox 5' type17 ast1 [40,510,504,16]   [Aptos/+mn-cs 9 b0 #827385] Lila  |  לגדול זה מסע. אנחנו כאן איתך
+  5 'Title 11' type14 ast138 [274,39,648,44]   [Aptos/Arial 28 b-1 #000000] מודל עסקי ותחזית הוצאות
+  6 'Table 6' type19 ast-2 [183,155,648,230] fill:#000000 t1  
+    TABLE rows 8 cols 2
+=== SLIDE 24 layout:Blank followMaster:0 bg:#FFFCFD
+  1 'Oval 1' type1 ast9 [634,-79,396,396] fill:#F6DEE7 t1  
+  2 'Oval 2' type1 ast9 [-79,367,324,324] fill:#E2D8F2 t1  
+  3 'TextBox 3' type17 ast1 [72,115,814,72]   [Aptos/+mn-cs 50 b-1 #4F3653] Lila
+  4 'TextBox 4' type17 ast1 [72,198,814,50]   [Aptos/+mn-cs 27 b-1 #C989A5] לגדול זה מסע. אנחנו כאן איתך
+  5 'TextBox 5' type17 ast1 [101,292,756,54]   [Aptos/+mn-cs 22 b0 #483D4A] להפוך את ההתבגרות למסע של ידע, מוכנות וביטחון.
+  6 'TextBox 6' type17 ast1 [72,482,814,22]   [Aptos/+mn-cs 11 b0 #827385] Lila
