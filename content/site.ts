@@ -1,25 +1,30 @@
 export const brand = {
   name: "LILA",
   nameEn: "LILA",
-  tagline: "ערכת היכרות למחזור הראשון",
+  tagline: "גדלות יחד",
   description:
-    "ערכת הכנה נעימה, שימושית ומרגיעה שמלווה ילדות ונערות לקראת המחזור הראשון — עם ידע, התנסות ותחושת מוכנות.",
+    "LILA מלווה ילדות והורים במסע ההתבגרות, עם מוצרים, ידע וסדנאות שמעניקים ביטחון לקראת הווסת הראשונה ולאורך הדרך.",
 };
 
-/** Inbox for waitlist signups. Override with WAITLIST_NOTIFY_EMAIL in production if needed. */
-export const waitlistNotifyEmail = "noashimoni@gmail.com";
+/**
+ * Public contact address, rendered on the server and in the browser.
+ * Keep this a literal so both sides always match.
+ * WAITLIST_NOTIFY_EMAIL overrides only the private FormSubmit inbox in the API routes.
+ */
+export const waitlistNotifyEmail = "lila@lilakit.com";
 
 export const navLinks = [
-  { href: "/kit", label: "מה יש בערכה?" },
+  { href: "/kit", label: "הערכות" },
+  { href: "/workshops", label: "סדנאות" },
   { href: "/journey", label: "מסע ההתבגרות" },
+  { href: "/guide", label: "ידע" },
   { href: "/parents", label: "להורים" },
-  { href: "/guide", label: "מדריך למחזור הראשון" },
-  { href: "/#waitlist", label: "הרשמה לערכה" },
 ] as const;
 
 export const footerLinks = {
   explore: [
     { href: "/about", label: "עלינו" },
+    { href: "/workshops", label: "הסדנאות" },
     { href: "/kit", label: "מה יש בערכה" },
     { href: "/journey", label: "מסע ההתבגרות" },
     { href: "/how-it-works", label: "איך זה עובד" },
@@ -37,6 +42,7 @@ export const footerLinks = {
 
 export const cta = {
   primary: "לגלות את הערכה",
+  workshops: "להכיר את הסדנאות",
   kit: "לגלות מה יש בערכה",
   guide: "ללמוד על המחזור הראשון",
   mothers: "מדריך קצר לאמהות",

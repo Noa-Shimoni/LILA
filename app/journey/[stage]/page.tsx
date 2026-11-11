@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { JourneyExperience } from "@/components/journey/JourneyExperience";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { isJourneyStageId, stageDetails } from "@/content/journey";
 
 type Props = { params: Promise<{ stage: string }> };
@@ -10,15 +10,15 @@ export function generateStaticParams() {
   return [...Object.keys(stageDetails), "bra"].map((stage) => ({ stage }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props) {
   const { stage } = await params;
   if (stage === "bra") {
-    return { title: "להכיר את הגוף" };
+    return pageSeo.journeyStage.changes;
   }
-  if (!isJourneyStageId(stage)) {
-    return { title: "מסע ההתבגרות" };
+  if (stage in pageSeo.journeyStage) {
+    return pageSeo.journeyStage[stage as keyof typeof pageSeo.journeyStage];
   }
-  return { title: stageDetails[stage].nowTitle };
+  return pageSeo.journey;
 }
 
 export default async function JourneyStagePage({ params }: Props) {

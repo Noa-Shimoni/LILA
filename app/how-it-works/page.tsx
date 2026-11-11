@@ -1,13 +1,10 @@
-import type { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { absorbencyMethods } from "@/content/kit";
 
-export const metadata: Metadata = {
-  title: "איך זה עובד",
-  description: "הסברים רגועים על תחבושות, תחתוני וסת וטמפונים — בלי לחץ ובלי דרך אחת נכונה.",
-};
+export const metadata = pageSeo.howItWorks;
 
 export default function HowItWorksPage() {
   return (
@@ -16,6 +13,7 @@ export default function HowItWorksPage() {
         eyebrow="שימוש"
         title="אין דרך אחת נכונה. יש מה שמתאים לך."
         lead="אפשר לקרוא, להתנסות בבית, לשאול שאלות, ולבחור אחר כך. אף אחת לא חייבת להשתמש בהכול."
+        art="girl-kit"
       />
       <Container className="space-y-8 py-14">
         {absorbencyMethods.map((item) => (

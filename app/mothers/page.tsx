@@ -1,13 +1,10 @@
-import type { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Section";
+import { pageSeo } from "@/content/seo";
 import { motherTips } from "@/content/mothers";
 
-export const metadata: Metadata = {
-  title: "מדריך לאמהות",
-  description: "איך לפתוח שיחה על המחזור הראשון בלי מבוכה, בלי דרמה ובלי להפוך את זה לבעיה.",
-};
+export const metadata = pageSeo.mothers;
 
 export default function MothersPage() {
   return (
@@ -16,6 +13,7 @@ export default function MothersPage() {
         eyebrow="לאמהות"
         title="לפעמים השיחה הכי חשובה מתחילה דווקא לפני שהמחזור מגיע."
         lead="לא צריך נאום גדול. צריך כמה מילים פשוטות, מקום לשאלות, ותחושה שאפשר לדבר על הגוף בלי מבוכה."
+        art="reading"
       />
       <Container className="py-14">
         <ul className="grid gap-5 md:grid-cols-2">
