@@ -1,0 +1,94 @@
+﻿Slides: A=24 B=24  Size A=960x540 B=960x540
+slide 1 ok-checked 8 original shapes, 8 decorative added
+slide 2 ok-checked 10 original shapes, 7 decorative added
+slide 3 ok-checked 10 original shapes, 3 decorative added
+slide 4 ok-checked 8 original shapes, 6 decorative added
+slide 5 ok-checked 22 original shapes, 4 decorative added
+slide 6 ok-checked 62 original shapes, 11 decorative added
+slide 7 ok-checked 20 original shapes, 8 decorative added
+slide 8 ok-checked 8 original shapes, 6 decorative added
+slide 9 ok-checked 13 original shapes, 4 decorative added
+slide 10 ok-checked 28 original shapes, 5 decorative added
+SLIDE 11 Rounded Rectangle 3 Left 255.6 -> 354.66
+SLIDE 11 Rounded Rectangle 3 Top 92.16 -> 110.136
+SLIDE 11 Rounded Rectangle 3 Width 450 -> 382.5
+  (info) SLIDE 11 Rounded Rectangle 3 autofit height 392.4 -> 333.5
+SLIDE 11 TextBox 4 Left 277.2 -> 373.02
+SLIDE 11 TextBox 4 Top 101.065 -> 117.7053
+SLIDE 11 TextBox 4 Width 406.8 -> 345.78
+  (info) SLIDE 11 TextBox 4 autofit height 19.6 -> 16.7
+SLIDE 11 Picture 5 Left 272.16 -> 368.736
+SLIDE 11 Picture 5 Top 142.334 -> 152.784
+SLIDE 11 Picture 5 Width 417.6 -> 354.96
+  (info) SLIDE 11 Picture 5 autofit height 299.3 -> 254.4
+SLIDE 11 Rounded Rectangle 6 Left 44.64 -> 175.344
+SLIDE 11 Rounded Rectangle 6 Top 104.4 -> 120.54
+SLIDE 11 Rounded Rectangle 6 Width 183.6 -> 156.06
+  (info) SLIDE 11 Rounded Rectangle 6 autofit height 162.0 -> 137.7
+SLIDE 11 Picture 7 Left 74.43851 -> 200.6728
+SLIDE 11 Picture 7 Top 111.6 -> 126.6601
+SLIDE 11 Picture 7 Width 124.0028 -> 105.4024
+  (info) SLIDE 11 Picture 7 autofit height 106.6 -> 90.6
+SLIDE 11 TextBox 8 Left 51.84 -> 181.464
+SLIDE 11 TextBox 8 Top 221.04 -> 219.6841
+SLIDE 11 TextBox 8 Width 169.1999 -> 143.8199
+  (info) SLIDE 11 TextBox 8 autofit height 30.2 -> 25.7
+SLIDE 11 Rounded Rectangle 9 Left 44.64 -> 175.344
+SLIDE 11 Rounded Rectangle 9 Top 289.4399 -> 277.8239
+SLIDE 11 Rounded Rectangle 9 Width 183.6 -> 156.06
+  (info) SLIDE 11 Rounded Rectangle 9 autofit height 162.0 -> 137.7
+SLIDE 11 Picture 10 Left 78.77614 -> 204.3598
+SLIDE 11 Picture 10 Top 296.6399 -> 283.944
+SLIDE 11 Picture 10 Width 115.3276 -> 98.02843
+  (info) SLIDE 11 Picture 10 autofit height 106.6 -> 90.6
+SLIDE 11 TextBox 11 Left 51.84 -> 181.464
+SLIDE 11 TextBox 11 Top 406.08 -> 376.968
+SLIDE 11 TextBox 11 Width 169.1999 -> 143.8199
+  (info) SLIDE 11 TextBox 11 autofit height 30.2 -> 25.7
+SLIDE 11 Rounded Rectangle 12 Left 731.52 -> 759.1921
+SLIDE 11 Rounded Rectangle 12 Top 104.4 -> 120.54
+SLIDE 11 Rounded Rectangle 12 Width 183.6 -> 156.06
+  (info) SLIDE 11 Rounded Rectangle 12 autofit height 162.0 -> 137.7
+SLIDE 11 Picture 13 Left 769.0828 -> 791.1205
+SLIDE 11 Picture 13 Top 111.6 -> 126.6601
+SLIDE 11 Picture 13 Width 108.4742 -> 92.20307
+  (info) SLIDE 11 Picture 13 autofit height 106.6 -> 90.6
+SLIDE 11 TextBox 14 Left 738.72 -> 765.312
+SLIDE 11 TextBox 14 Top 221.04 -> 219.6841
+SLIDE 11 TextBox 14 Width 169.1999 -> 143.8199
+  (info) SLIDE 11 TextBox 14 autofit height 30.2 -> 25.7
+SLIDE 11 Rounded Rectangle 15 Left 731.52 -> 759.1921
+SLIDE 11 Rounded Rectangle 15 Top 289.4399 -> 277.8239
+SLIDE 11 Rounded Rectangle 15 Width 183.6 -> 156.06
+  (info) SLIDE 11 Rounded Rectangle 15 autofit height 162.0 -> 137.7
+SLIDE 11 Picture 16 Left 756.72 -> 780.6119
+SLIDE 11 Picture 16 Top 296.6399 -> 283.944
+SLIDE 11 Picture 16 Width 133.2 -> 113.22
+  (info) SLIDE 11 Picture 16 autofit height 106.6 -> 90.6
+SLIDE 11 TextBox 17 Left 738.72 -> 765.312
+SLIDE 11 TextBox 17 Top 406.08 -> 376.968
+SLIDE 11 TextBox 17 Width 169.1999 -> 143.8199
+  (info) SLIDE 11 TextBox 17 autofit height 30.2 -> 25.7
+SLIDE 11 Rounded Rectangle 18 Left 158.4 -> 272.04
+SLIDE 11 Rounded Rectangle 18 Top 495.36 -> 452.856
+SLIDE 11 Rounded Rectangle 18 Width 644.3999 -> 547.7399
+  (info) SLIDE 11 Rounded Rectangle 18 autofit height 28.8 -> 24.5
+SLIDE 11 TextBox 19 Left 169.2 -> 281.22
+SLIDE 11 TextBox 19 Top 501.8943 -> 458.4102
+SLIDE 11 TextBox 19 Width 622.8 -> 529.38
+  (info) SLIDE 11 TextBox 19 autofit height 13.6 -> 11.5
+slide 11 ok-checked 19 original shapes, 9 decorative added
+slide 12 ok-checked 33 original shapes, 4 decorative added
+slide 13 ok-checked 43 original shapes, 4 decorative added
+slide 14 ok-checked 7 original shapes, 5 decorative added
+slide 15 ok-checked 16 original shapes, 4 decorative added
+slide 16 ok-checked 54 original shapes, 21 decorative added
+slide 17 ok-checked 14 original shapes, 5 decorative added
+slide 18 ok-checked 22 original shapes, 5 decorative added
+slide 19 ok-checked 12 original shapes, 11 decorative added
+slide 20 ok-checked 21 original shapes, 3 decorative added
+slide 21 ok-checked 6 original shapes, 7 decorative added
+slide 22 ok-checked 6 original shapes, 5 decorative added
+slide 23 ok-checked 6 original shapes, 5 decorative added
+slide 24 ok-checked 6 original shapes, 8 decorative added
+TOTAL shapes checked: 454  errors: 51  autofit-height-changes: 17

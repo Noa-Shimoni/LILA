@@ -13,6 +13,7 @@ export default function AboutPage() {
         eyebrow="LILA"
         title="מותג ישראלי להיכרות רגועה עם המחזור הראשון."
         lead="LILA נולדה מהרצון להחליף בהלה בהכנה, ומבוכה בשיחה פשוטה. לא ערכת חירום. ערכת היכרות."
+        art="hug"
       />
       <Container className="max-w-3xl space-y-6 py-14 text-lg text-muted">
         <p>
@@ -23,6 +24,9 @@ export default function AboutPage() {
         </p>
         <p>
           הטון שלנו חם, בגובה העיניים, ולא ילדותי מדי. אנחנו לא מדברות על המחזור כמשהו מלוכלך, מפחיד או מביך. פשוט חדש. ואפשר ללמוד.
+        </p>
+        <p>
+          LILA היא גם עולם רחב יותר: ידע להורים ולילדות, וסדנאות משותפות שגדלות איתן. הערכה היא הצעד הראשון.
         </p>
         <Button href="/kit">לגלות את הערכה</Button>
       </Container>

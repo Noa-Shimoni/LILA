@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const OG_IMAGE = "/full-kit.png";
+const OG_IMAGE = "/full-kit.jpg";
 
 export function getSiteUrl(): string {
   const fromEnv = process.env.NEXT_PUBLIC_SITE_URL;

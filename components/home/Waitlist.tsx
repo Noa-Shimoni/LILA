@@ -136,7 +136,7 @@ export function Waitlist() {
               autoCapitalize="none"
               spellCheck={false}
               aria-invalid={fieldError === "email"}
-              className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
+              className="lila-field"
             />
           </div>
           <div>
@@ -149,7 +149,7 @@ export function Waitlist() {
               autoComplete="name"
               maxLength={80}
               aria-invalid={fieldError === "name"}
-              className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
+              className="lila-field"
             />
           </div>
           <div>
@@ -164,7 +164,7 @@ export function Waitlist() {
               maxLength={20}
               inputMode="tel"
               aria-invalid={fieldError === "phone"}
-              className="min-h-11 w-full rounded-2xl bg-white px-4 py-2 ring-1 ring-ink/10"
+              className="lila-field"
             />
           </div>
           {status === "error" && fieldError ? (

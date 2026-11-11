@@ -13,6 +13,7 @@ export default function MothersPage() {
         eyebrow="לאמהות"
         title="לפעמים השיחה הכי חשובה מתחילה דווקא לפני שהמחזור מגיע."
         lead="לא צריך נאום גדול. צריך כמה מילים פשוטות, מקום לשאלות, ותחושה שאפשר לדבר על הגוף בלי מבוכה."
+        art="reading"
       />
       <Container className="py-14">
         <ul className="grid gap-5 md:grid-cols-2">

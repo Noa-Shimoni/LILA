@@ -13,6 +13,7 @@ export default function HowItWorksPage() {
         eyebrow="שימוש"
         title="אין דרך אחת נכונה. יש מה שמתאים לך."
         lead="אפשר לקרוא, להתנסות בבית, לשאול שאלות, ולבחור אחר כך. אף אחת לא חייבת להשתמש בהכול."
+        art="girl-kit"
       />
       <Container className="space-y-8 py-14">
         {absorbencyMethods.map((item) => (

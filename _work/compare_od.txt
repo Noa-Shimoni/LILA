@@ -1,0 +1,26 @@
+﻿Slides: A=24 B=24  Size A=960x540 B=960x540
+slide 1 ok-checked 8 original shapes, 0 decorative added
+slide 2 ok-checked 10 original shapes, 0 decorative added
+slide 3 ok-checked 10 original shapes, 0 decorative added
+slide 4 ok-checked 8 original shapes, 0 decorative added
+slide 5 ok-checked 22 original shapes, 0 decorative added
+slide 6 ok-checked 62 original shapes, 0 decorative added
+slide 7 ok-checked 20 original shapes, 0 decorative added
+slide 8 ok-checked 8 original shapes, 0 decorative added
+slide 9 ok-checked 13 original shapes, 0 decorative added
+slide 10 ok-checked 28 original shapes, 0 decorative added
+slide 11 ok-checked 19 original shapes, 0 decorative added
+slide 12 ok-checked 33 original shapes, 0 decorative added
+slide 13 ok-checked 43 original shapes, 0 decorative added
+slide 14 ok-checked 7 original shapes, 0 decorative added
+slide 15 ok-checked 16 original shapes, 0 decorative added
+slide 16 ok-checked 54 original shapes, 0 decorative added
+slide 17 ok-checked 14 original shapes, 0 decorative added
+slide 18 ok-checked 22 original shapes, 0 decorative added
+slide 19 ok-checked 12 original shapes, 0 decorative added
+slide 20 ok-checked 21 original shapes, 0 decorative added
+slide 21 ok-checked 6 original shapes, 0 decorative added
+slide 22 ok-checked 6 original shapes, 0 decorative added
+slide 23 ok-checked 6 original shapes, 0 decorative added
+slide 24 ok-checked 6 original shapes, 0 decorative added
+TOTAL shapes checked: 454  errors: 0  autofit-height-changes: 0

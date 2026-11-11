@@ -22,7 +22,7 @@ export function Section({
   className?: string;
 }) {
   return (
-    <section id={id} className={`py-16 sm:py-24 ${className}`}>
+    <section id={id} className={`scroll-mt-24 py-16 sm:py-24 ${className}`}>
       <Container>{children}</Container>
     </section>
   );
@@ -36,7 +36,7 @@ export function Eyebrow({ children }: { children: React.ReactNode }) {
 
 export function Title({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="max-w-3xl font-serif text-3xl font-medium leading-snug tracking-tight text-ink sm:text-4xl md:text-[2.55rem]">
+    <h2 className="max-w-3xl text-balance font-serif text-3xl font-medium leading-snug tracking-tight text-ink sm:text-4xl md:text-[2.55rem]">
       {children}
     </h2>
   );

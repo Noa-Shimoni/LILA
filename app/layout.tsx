@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Heebo, IBM_Plex_Sans_Hebrew } from "next/font/google";
-import { Footer } from "@/components/layout/Footer";
-import { Header } from "@/components/layout/Header";
+import { Analytics } from "@/components/analytics/Analytics";
+import { SiteShell } from "@/components/layout/SiteShell";
 import { SkipLink } from "@/components/layout/SkipLink";
 import { pageSeo } from "@/content/seo";
+import { brand, waitlistNotifyEmail } from "@/content/site";
 import { getSiteUrl } from "@/lib/seo";
 import "./globals.css";
 
@@ -30,17 +31,33 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: "#F7F3EE",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const siteUrl = getSiteUrl();
+  const organization = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: brand.name,
+    url: siteUrl,
+    logo: `${siteUrl}/logo.png`,
+    description: brand.description,
+    email: waitlistNotifyEmail,
+    areaServed: "IL",
+  };
+
   return (
     <html lang="he" dir="rtl" className={`${sans.variable} ${heading.variable}`}>
-      <body className="paper-bg font-sans font-light antialiased">
+      <body className="paper-bg font-sans font-normal antialiased">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} />
         <div className="grain min-h-screen">
           <SkipLink />
-          <Header />
-          <main id="main">{children}</main>
-          <Footer />
+          <SiteShell>{children}</SiteShell>
+          <Analytics />
         </div>
       </body>
     </html>

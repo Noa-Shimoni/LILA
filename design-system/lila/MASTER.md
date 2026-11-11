@@ -1,35 +1,47 @@
 # LILA — Design System
 
-Source: UI UX Pro Max, adapted for Hebrew RTL, first-period education, and accessibility.
-
-## Product
-
-Hybrid **wellness education + gift kit** for first menstruation. Brand name: **LILA**.
+Source of truth for color and atmosphere: `design-references/LILA_MOODBOARD.png`.
+Hebrew, RTL, parents of girls about 8–13, and girls who should feel welcome.
 
 ## Style
 
-**Soft UI Evolution**, cool and calm. Spacious, paper-like, not medical, not baby-pink, not generic Shopify.
+An illustrated lifestyle world. Soft, refined, and warm. Japanese children’s-book calm mixed with a modern gift brand. Not a pharmacy catalog, not a kindergarten site, and not a generic store template.
 
 ## Palette
 
 | Token | Hex | Use |
 | --- | --- | --- |
-| cream | `#F3F2F8` | Page background (cool lilac-white) |
-| peach | `#D5DEF2` | Soft blue surfaces |
-| blush | `#EAD4E4` | Dusty pink accents |
-| lilac | `#D4CEEE` | Lavender |
-| sage | `#C9D6EA` | Cool blue-grey |
-| rose | `#5A5488` | Primary / links (muted violet) |
-| rose-deep | `#3D3868` | CTA fill |
-| ink | `#2A2740` | Body text ≥ 4.5:1 |
-| muted | `#5E5A72` | Secondary text |
+| cream | `#F7F3EE` | Page background |
+| paper | `#FBF8F4` | Raised paper, consent card |
+| blush | `#E8D0D6` | Dusty pink surfaces |
+| lilac | `#D9D1EA` | Lavender surfaces |
+| sage | `#C9DDD4` | Mint surfaces |
+| peach | `#F4E6C8` | Butter yellow surfaces |
+| sky / powder | `#D5E4F2` | Light blue surfaces |
+| rose | `#6E3E56` | Links |
+| rose-deep | `#4E3344` | Primary buttons, white text |
+| ink | `#2F2836` | Body text |
+| muted | `#5A5160` | Secondary text |
+
+Text on cream and on the pastel cards stays ink or muted. White text is only on `rose-deep`.
 
 ## Type
 
-- Headings: **Heebo** (modern geometric Hebrew, medium weight)
-- Body / UI: **IBM Plex Sans Hebrew** (light, delicate)
-- Wordmark: **LILA**, tracked, English
+- Headings: Heebo, medium weight
+- Body and forms: IBM Plex Sans Hebrew, regular weight
+- Wordmark: existing `public/logo.png`. Do not redraw it.
 
-## Images
+## Shape
 
-Photography to be supplied later. Current visuals are placeholders / illustrations.
+- Buttons: full pill, at least 48px tall
+- Cards: 1.75rem radius, soft shadow, 1px ink ring at 10% opacity
+- Sections: 4rem mobile, 6rem desktop, content width 72rem
+- Focus: 3px rose-deep outline, never removed
+
+## Motifs
+
+Hand-drawn flowers, daisies, sparks and sprigs in `components/illustrations/Motifs.tsx`. They are decorative and hidden from assistive tech. Product photography stays the real kit images in `public/`.
+
+## Forms
+
+Visible labels, errors under the field, one summary alert, and no success message before the server accepts the submission. Marketing consent is a separate unchecked checkbox.

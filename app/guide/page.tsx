@@ -14,6 +14,7 @@ export default function GuidePage() {
         eyebrow="מדריך"
         title="אז… קיבלתי מחזור. מה עכשיו?"
         lead="את לא אמורה לדעת הכול כבר בפעם הראשונה. בשביל זה לומדים. המדריך הזה מדבר אלייך בגובה העיניים."
+        art="girl-book"
       />
       <Container className="py-14">
         <ol className="grid gap-5 md:grid-cols-2">

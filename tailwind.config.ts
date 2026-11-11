@@ -20,6 +20,8 @@ const config: Config = {
           DEFAULT: "var(--color-rose)",
           deep: "var(--color-rose-deep)",
         },
+        powder: "var(--color-sky)",
+        paper: "var(--color-paper)",
       },
       fontFamily: {
         serif: ["var(--font-serif)", "Heebo", "sans-serif"],

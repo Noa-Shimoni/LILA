@@ -1,3 +1,4 @@
+import { Character } from "@/components/illustrations/Characters";
 import { StagePicker } from "@/components/journey/StagePicker";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Section";
@@ -17,6 +18,7 @@ export default function JourneyLandingPage() {
         Lila כאן כדי לעזור לך להבין מה קורה בגוף, מה צפוי בהמשך, ואיך לעבור את
         הדרך הזו בביטחון.
       </p>
+      <Character name="growing" className="mt-8 h-auto w-full max-w-2xl" />
 
       <section className="mt-14 max-w-xl">
         <h2 className="font-serif text-3xl font-medium">איפה את עכשיו?</h2>

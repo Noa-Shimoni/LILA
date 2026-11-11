@@ -6,6 +6,7 @@ import { getSiteUrl } from "@/lib/seo";
 const staticPaths: { path: string; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"]; priority: number }[] =
   [
     { path: "/", changeFrequency: "weekly", priority: 1 },
+    { path: "/workshops", changeFrequency: "weekly", priority: 0.95 },
     { path: "/kit", changeFrequency: "weekly", priority: 0.9 },
     { path: "/journey", changeFrequency: "weekly", priority: 0.9 },
     { path: "/guide", changeFrequency: "monthly", priority: 0.9 },

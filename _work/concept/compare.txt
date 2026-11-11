@@ -1,0 +1,5 @@
+﻿Slides: A=3 B=3  Size A=960x540 B=960x540
+slide 1 ok-checked 62 original shapes, 11 decorative added
+slide 2 ok-checked 19 original shapes, 12 decorative added
+slide 3 ok-checked 54 original shapes, 21 decorative added
+TOTAL shapes checked: 135  errors: 0  autofit-height-changes: 0
